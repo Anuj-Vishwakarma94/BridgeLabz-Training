@@ -1,5 +1,5 @@
 import java.util.*;
-public class CalculateSimpleInterest{
+public class CalculateSimpleInterest {
     public static void main (String[]args){
         Scanner Sc=new Scanner(System.in);
 		int Principal=Sc.nextInt();
