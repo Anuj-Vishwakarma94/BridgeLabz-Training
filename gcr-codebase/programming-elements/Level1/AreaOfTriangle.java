@@ -12,6 +12,6 @@ public class  AreaOfTriangle{
 	double areaCentimeters=area;
 	 
 	//print the area of triangle in incges and square centimetre
-	System.out.println("Area of triangle in Inches is " + areaInches +" and in square centimetre is " + area);
+	System.out.println("Area of triangle in Inches is " + areaInches +" and in square centimetre is " +area);
 	}
 }
