@@ -1,5 +1,5 @@
 import java.util.*;
-public class ConvertKilometerToMiles{
+public class ConvertKilometerToMiles {
     public static void main (String[]args){
         Scanner Sc=new Scanner(System.in);
 		double Kilometer=Sc.nextInt();
