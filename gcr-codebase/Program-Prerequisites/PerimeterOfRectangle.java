@@ -1,5 +1,5 @@
 import java.util.*;
-public class PerimeterOfRectangle {
+public class PerimeterOfRectangle{
     public static void main (String[]args){
         Scanner Sc=new Scanner(System.in);
 		int length=Sc.nextInt();
