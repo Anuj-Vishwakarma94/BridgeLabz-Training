@@ -1,5 +1,5 @@
 import java.util.*;
-public class AverageOfThreeNumbers {
+public class AverageOfThreeNumbers{
     public static void main (String[]args){
         Scanner Sc=new Scanner(System.in);
 		int num1=Sc.nextInt();
