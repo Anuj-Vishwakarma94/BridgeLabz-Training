@@ -6,7 +6,6 @@ public class FactorsOperations{
     //take input for the number
     Scanner input=new Scanner(System.in);
     int number=input.nextInt();
-
     int factors[]=findFactors(number);
 
     //display the factors
