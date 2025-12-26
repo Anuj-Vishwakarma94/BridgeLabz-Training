@@ -111,3 +111,20 @@ BridgeLabz-Training/
 👉 [Day 6 – Methods](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
   
 ---
+
+## 📅 Week 2: Extra programming Fundamentals & practice
+
+### 🗓 Day 1 – Java Strings
+**(Date: 22-Dec-2025)**
+
+- Studied String concepts:
+ - String creation
+ - String methods
+ - Character processing
+- Implemented programs for string manipulation.
+- Committed and pushed solutions to the repository.
+
+🔗 **Code Link:**  
+👉 [Day 1 – Strings](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+
+---
