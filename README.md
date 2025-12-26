@@ -155,3 +155,30 @@ BridgeLabz-Training/
   
 🔗 **Code Link:**  
 👉 [Day 2 – Extras](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras)
+
+---
+### 🗓 Day 3 – Scenario Based and Leetcode Questions
+**(Date: 24-Dec-2025)**
+
+- Studied Scenario based Questions:
+ - BMI Tracker
+ - Coffee Counter
+  
+- Solved 5 Leetcode Arrays Questions
+  
+  - Two sum
+ 
+  - Longest Common Prefix
+ 
+  - Remove Duplicates
+ 
+  - Remove Elements
+ 
+  - Search Insert Position
+
+🔗 **Code Link:**  
+👉 [Day 3 – Scenario-based](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+👉 [Day 3 – Leetcode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Arrays)
+
+---
