@@ -174,7 +174,7 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Day 3 – Scenario-based](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
-👉 [Day 3 – Leetcode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Arrays)
+👉 [Day 3 – Leetcode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 ---
 ### 🗓 Day 4 – Scenario Based problems
@@ -187,7 +187,7 @@ BridgeLabz-Training/
 - Organized programs into proper folders.
 - Committed and pushed all changes successfully.
 
-🔗 **Code Link:**
+🔗 **Code Link:**  
 👉 [Day 4 – Scenario-based](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
 ---
@@ -206,5 +206,25 @@ BridgeLabz-Training/
 - Organized programs into proper folders.
 - Committed and pushed all changes successfully.
 
-🔗 **Code Link:**
+🔗 **Code Link:**  
 👉 [Day 1 – Scenario-based](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
+
+### 🗓 Day 2 – Scenario Based Problems and Leetcode Problems
+**(Date: 30-Dec-2025)**
+
+- Solved Scenario based Questions.
+  - LibraryFineCalculator
+  - MovieTicketBookingApp
+  - FitnessTracker
+  - TemperatureLogger
+  - TrainReservationQueue
+- Organized programs into proper folders.
+- Committed and pushed all changes successfully.
+
+🔗 **Code Link:**  
+👉 [Day 2 – Scenario-based](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+👉 [Day 2 – Leetcode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
