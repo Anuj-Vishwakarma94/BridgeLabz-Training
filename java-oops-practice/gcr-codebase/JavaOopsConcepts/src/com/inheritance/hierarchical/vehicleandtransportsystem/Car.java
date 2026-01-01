@@ -1,0 +1,19 @@
+package com.inheritance.hierarchical.vehicleandtransportsystem;
+
+public class Car extends Vehicle {
+
+    private int seatCapacity;
+
+    // Constructor to initialize car details
+    public Car(int maxSpeed, String fuelType, int seatCapacity) {
+        super(maxSpeed, fuelType);
+        this.seatCapacity = seatCapacity;
+    }
+
+    // Overridden method with car-specific details
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("Seat Capacity : " + seatCapacity);
+    }
+}
