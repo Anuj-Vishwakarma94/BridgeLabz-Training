@@ -122,3 +122,9 @@ Committed and pushed all work.
 
 🔗 **Code Link:**  
 👉 [Day 14 – Java Encapsulation & Polymorphism](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+
+---
+🧩 Section B : Scenario-Based Problems Progress
+---
+🧮 Section C : LeetCode-based Problems Progress
+---
