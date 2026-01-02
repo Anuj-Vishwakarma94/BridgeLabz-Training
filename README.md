@@ -17,6 +17,10 @@ Week 1 : Fundamentals of Java Programming
 🔹 java-oops-practice
 Week 2 : Object-Oriented Programming
 
+🔹dsa-practice
+Week 3 : Data Structure and Algorithm
+
+
 ---
 📂 Project Structure
 ```
@@ -34,17 +38,23 @@ BridgeLabz-Training/
 │   ├── 📁 leet-code-codebase/         # LeetCode solutions
 │   └── 📁 scenario-based-codebase/    # Real-world problems
 │
-└── 📁 java-oops-practice/
-    └── 📁 gcr-codebase/
-        └── 📁 JavaOopsConcepts/
-            └── 📁 src/
-                └── 📁 com/
-                    ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
-                    └── 📁 constructor/       # Constructor, access modifiers
-                    └── 📁 finalandstatic/    # Keywords, instance vs class members
-                    └── 📁 objectmodeling/    # Diagrams, relationships, communication
-                    └── 📁 inheritance/       # Types, method overriding, & access modifiers
-                    └── 📁 encapsulation/     # Encapsulation concept, data hiding, getters & setters
+|── 📁 java-oops-practice/
+|    ├── 📁 gcr-codebase/
+|    |   └── 📁 JavaOopsConcepts/
+|    |        └── 📁 src/
+|    |            └── 📁 com/
+|    |                ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
+|    |                └── 📁 constructor/       # Constructor, access modifiers
+|    |                └── 📁 finalandstatic/    # Keywords, instance vs class members
+|    |                └── 📁 objectmodeling/    # Diagrams, relationships, communication
+|    |                └── 📁 inheritance/       # Types, method overriding, & access modifiers
+|    |                └── 📁 encapsulation/     # Encapsulation concept, data hiding, getters & setters
+|    ├── 📁 leet-code-codebase/                 # LeetCode solutions
+│    └── 📁 scenario-based-codebase/            # Real-world problems
+|
+└── 📁 dsa-practice
+     └── 📁 gcr-codebase/
+
 ```
 Learning Milestones
 ## Week 1 : Core Java Programming
@@ -58,7 +68,7 @@ Learning Milestones
 | 5   | 19-Dec | Arrays                         | 1D & 2D arrays, traversal                    |
 | 6   | 20-Dec | Methods                        | Method declaration, parameters               |
 | 7   | 22-Dec | Strings                        | String creation, methods                     |
-| 8   | 23-Dec | Built-in Functions & Exceptions| Math, Random, Date-Time, exceptions          |
+| 8   | 23-Dec | Extras                         | Math, Random, Date-Time, exceptions          |
 
 ## Week 2 : Object-Oriented Programming
 
