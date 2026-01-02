@@ -31,7 +31,8 @@ BridgeLabz-Training/
 - Practiced Git workflow to understand commits and version control.
 - Solved very basic Java programs to understand syntax and structure.
 - Practiced adding, committing, and pushing Java files to GitHub.
-- 🔗 **Code Link:**
+
+🔗 **Code Link:**  
 👉 [Java Fundamentals and Basic Programs](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Program-Prerequisites)
 
 ### 🗓 Day 3 – Java Programming Elements  
@@ -45,7 +46,8 @@ BridgeLabz-Training/
   - Taking user input using `Scanner`
 - Solved practice programs based on the above concepts.
 - Committed and pushed all solutions to the repository.
-- 🔗 **Code Link:**  
+
+🔗 **Code Link:**  
 👉 [Programming Elements Programs](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ### 🗓 Day 4 – Java Control Flow & Logical Constructs  
@@ -61,7 +63,8 @@ BridgeLabz-Training/
 - Used `break` and `continue` statements.
 - Solved logical problems.
 - Committed and pushed solutions to the repository.
-- 🔗 **Code Link:**  
+
+🔗 **Code Link:**  
 👉 [Control Flows Programs](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
 ### 🗓 Day 5 – Java Arrays & Basic Problem Solving  
@@ -72,7 +75,8 @@ BridgeLabz-Training/
 - Practiced array traversal and operations.
 - Strengthened logical thinking using array problems.
 - Committed and pushed solutions to the repository.
-- 🔗 **Code Link:**  
+
+🔗 **Code Link:**  
 👉 [Arrays Programs](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
   
 ### 🗓 Day 6 – Java Methods
@@ -84,7 +88,8 @@ BridgeLabz-Training/
  - Return types
 - Implemented programs for reusable methods.
 - Committed and pushed solutions to the repository.
-- 🔗 **Code Link:**  
+
+🔗 **Code Link:**  
 👉 [Methods Programs](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
 
 ### 🗓 Day 7 – Java Strings
@@ -95,7 +100,8 @@ BridgeLabz-Training/
  - String utility methods
 - Implemented programs for string manipulation.
 - Committed and pushed solutions to the repository.
-- 🔗 **Code Link:**  
+
+🔗 **Code Link:**  
 👉 [Strings Programs](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
   
 ### 🗓 Day 8 – Java Built-in Functions & String Additionals
@@ -120,7 +126,56 @@ BridgeLabz-Training/
   - `java.lang.Exception`
 - Implemented utility programs such as a unit converters.
 - Committed and pushed all changes successfully.
-- 🔗 **Code Link:**  
+
+🔗 **Code Link:**  
 👉 [Built-In Functions Programs](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras)
+
+---
+## 🧩 Section B : Scenario-Based Problems Progress
+
+### 🗓 Day 9 – Scenario-Based Practice  
+*(Date: 24-Dec-2025)*
+- Solved *2* scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+
+🔗 *Code Links:*  
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)    
+
+### 🗓 Day 10 – Scenario-Based Practice  
+*(Date: 26-Dec-2025)*
+- Solved *3* scenario-based problems.
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
+
+🔗 *Code Links:*  
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)  
+
+### 🗓 Day 11 – Scenario-based Practice  
+*(Date: 29-Dec-2025)*
+- Practiced *5* scenario-based problems.
+- Focused on logic and better user interface.
+- Committed and pushed all solutions.
+
+🔗 *Code Links:*  
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)  
+
+### 🗓 Day 12 – Scenario-based Practice  
+*(Date: 30-Dec-2025)*
+- Practiced *5* scenario-based problems.
+- Focused on logic and better user interface.
+- Committed and pushed all solutions.
+
+🔗 *Code Links:*  
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)  
+
+### 🗓 Day 13 – Scenario-based Practice  
+*(Date: 31-Dec-2025)*
+- Practiced *5* scenario-based problems.
+- Focused on logic and better user interface.
+- Committed and pushed all solutions.
+
+🔗 *Code Links:*  
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)  
 
 ---
