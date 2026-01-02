@@ -95,25 +95,25 @@ Object-Oriented Programming (java-oops-practice)
 ---
 
 core-java-practice :
- - 📌 Prerequisites
- - 📌 Control Flows
- - 📌 Programming Elements
- - 📌 Arrays
- - 📌 Methods
- - 📌 Strings
- - 📌 Extra
- - 📌 LeetCode Solutions 
- - 📌 Scenario-Based Solutions
+ - 📌 [Program Prerequisites](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Program-Prerequisites)
+ - 📌 [Control Flows](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
+ - 📌 [Programming Elements](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+ - 📌 [Arrays](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+ - 📌 [Methods](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+ - 📌 [Strings](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+ - 📌 [Extra](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras)
+ - 📌 [LeetCode Solutions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase) 
+ - 📌 [Scenario-Based Solutions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
 --- 
 
 java-oops-practice :
- - 📌 Classes and Objects
- - 📌 Constructors
- - 📌 In-built Function
- - 📌 Object Modeling
- - 📌 Inheritance & Types
- - 📌 Encapsulation
+ - 📌 [Classes and Objects](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+ - 📌 [Constructors](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructors/level1)
+ - 📌 [In-built Function](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inbuiltfunctions)
+ - 📌 [Object Modeling](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+ - 📌 [Inheritance & Types](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+ - 📌 [Encapsulation](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
  
  
 ---
