@@ -53,7 +53,20 @@ BridgeLabz-Training/
 │    └── 📁 scenario-based-codebase/            # Real-world problems
 |
 └── 📁 dsa-practice
-     └── 📁 gcr-codebase/
+|    └── 📁 gcr-codebase/
+|
+└── 📁 dsa-practice/
+│   └── 📁 gcr-codebase/
+│   │  └── 📁 DSAConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 linkedlists/                # singly, doubly & circular
+│   │               └── 📁 stackandqueue/              # Stack:Last-In-First-Out (LIFO) & Queue:First-In-First-Out (FIFO)
+│   │               └── 📁 hashmapandhashfunctions/    # Key-Value pairs
+│   ├── 📁 leet-code-codebase/                         # LeetCode solutions
+│   └── 📁 scenario-based-codebase/                    # Real-world problems
+|
+└── README.md
 
 ```
 Learning Milestones
@@ -80,6 +93,13 @@ Learning Milestones
 | 12  | 30-Dec | Object Modeling                 | Diagrams, relationships, communication                |
 | 13  | 31-Dec | Inheritance & Types             | Types, method overriding, & modifiers                 |
 | 14  | 01-Jan | Encapsulation                   | Encapsulation concept, data hiding, getters & setters |
+
+### **Week 3 : Data Structures & Algorithms**
+
+| Day |     Date    | Topic                          | Coverage                               |
+|-----|-------------|--------------------------------|----------------------------------------|
+|  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
+|  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
 
 ---
 
@@ -126,8 +146,15 @@ java-oops-practice :
  - 📌 [Inheritance & Types](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
  - 📌 [Encapsulation](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
  
- 
 ---
+
+dsa-practice:
+- 📌 [Linked Lists](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/linkedlist)
+- 📌 [Stack And Queue](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/stackandqueue)
+- 📌 [HashMaps And Hash Functions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/hashmapandhashfunctions)
+
+---
+
 🎓 Learnings & Best Practices
 ---
  - Code Organization: Following industrial standards
