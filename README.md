@@ -126,5 +126,25 @@ Committed and pushed all work.
 ---
 🧩 Section B : Scenario-Based Problems Progress
 ---
+
+### 🗓 Day 15 – Scenario-Based Practice  
+**(Date: 02-Jan-2026)**
+- Solved **5** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+
+🔗 **Code Links:**       
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase)  
+
+### 🗓 Day 16 – Scenario-Based Practice  
+**(Date: 03-Jan-2026)**
+- Solved **2** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+
+🔗 **Code Links:**       
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase)
+
+---
 🧮 Section C : LeetCode-based Problems Progress
 ---
