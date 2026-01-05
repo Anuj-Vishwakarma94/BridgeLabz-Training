@@ -179,3 +179,44 @@ BridgeLabz-Training/
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)  
 
 ---
+## 🧮 Section C : LeetCode-based Problems Progress
+
+### 🗓 Day 11 – LeetCode problems  
+**(Date: 26-Dec-2025)**
+
+- Solved LeetCode problems.
+- 5 leetcode problems
+- Organised programs into proper folders.
+- Committed and pushed all changes successfully.
+
+🔗 **Code Link:** [LeetCode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+### 🗓 Day 14 – LeetCode problems  
+**(Date: 29-Dec-2025)**
+
+- Pushed LeetCode problems solved over three days.
+- 16 problems of four days.
+- Organised programs into proper folders.
+- Committed and pushed all changes successfully.
+
+🔗 **Code Link:** [LeetCode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+### 🗓 Day 15 – LeetCode problems  
+**(Date: 30-Dec-2025)**
+
+- Solved LeetCode problems.
+- 5 leetcode problems
+- Organised programs into proper folders.
+- Committed and pushed all changes successfully.
+
+🔗 **Code Link:** [LeetCode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+### 🗓 Day 16 – LeetCode problems  
+**(Date: 31-Dec-2025)**
+
+- Solved LeetCode problems.
+- 4 leetcode problems
+- Organised programs into proper folders.
+- Committed and pushed all changes successfully.
+
+🔗 **Code Link:** [LeetCode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
