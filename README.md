@@ -15,9 +15,8 @@ BridgeLabz-Training/
 |   |       |── src/
 |   |           |── com/
 |   |               |── linkedlists/
-|   |               |── stacks/
-|   |               |── queues/
-|   |               |── hashmaps/
+|   |               |── stacksandqueue/
+|   |               |── hashmapsandhashfunctions/
 |   |
 │ 	│── leet-code-codebase/
 │ 	│── scenario-based-codebase/
