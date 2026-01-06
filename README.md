@@ -100,12 +100,13 @@ Learning Milestones
 |-----|-------------|--------------------------------|----------------------------------------|
 |  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
 |  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
+|  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
 
 ---
 
 Key Concepts Covered
 
- - Core Java (core-java-practice)
+### Core Java (core-java-practice)
  - Fundamentals: Variables, data types, operators
  - Control Structures: If-else, loops, switch-case
  - Arrays: Single & multi-dimensional arrays
@@ -114,12 +115,21 @@ Key Concepts Covered
  - Problem Solving: LeetCode challenges, real-world scenarios
  
  ---
-Object-Oriented Programming (java-oops-practice)
+### Object-Oriented Programming (java-oops-practice)
  - Classes & Objects: Creating and instantiating objects
  - Encapsulation: Data hiding and access modifiers
  - Constructors: Default, parameterized, overloading
  - Abstraction: Interface-based design patterns
  - Inheritance: Parent and Chlid relations
+
+---
+### Data Structures & Algorithms (dsa-practice)
+- DSA Fundamentals: Time & space complexity, basic problem analysis
+- Linked Lists: Singly, doubly, and circular linked lists
+- Stacks: LIFO principle, push/pop operations, stack applications
+- Queues: FIFO principle, enqueue/dequeue operations, queue variants
+- HashMaps: Key-value storage, hashing concept, basic operations
+- Sorting: Basic sorting algorithms and comparison-based sorting concepts
 
 ---
 🔗 Quick Links
@@ -152,7 +162,7 @@ dsa-practice:
 - 📌 [Linked Lists](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/linkedlist)
 - 📌 [Stack And Queue](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/stackandqueue)
 - 📌 [HashMaps And Hash Functions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/hashmapandhashfunctions)
-
+- 📌 [Sorting](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
 ---
 
 🎓 Learnings & Best Practices
