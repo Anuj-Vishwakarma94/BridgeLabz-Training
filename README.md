@@ -52,9 +52,6 @@ BridgeLabz-Training/
 |    ├── 📁 leet-code-codebase/                 # LeetCode solutions
 │    └── 📁 scenario-based-codebase/            # Real-world problems
 |
-└── 📁 dsa-practice
-|    └── 📁 gcr-codebase/
-|
 └── 📁 dsa-practice/
 │   └── 📁 gcr-codebase/
 │   │  └── 📁 DSAConcepts/
@@ -101,6 +98,7 @@ Learning Milestones
 |  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
 |  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
 |  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
+|  19 | 07-jan      | linear and binary Search       | Concepts of linear and binary Search   |
 
 ---
 
@@ -130,6 +128,8 @@ Key Concepts Covered
 - Queues: FIFO principle, enqueue/dequeue operations, queue variants
 - HashMaps: Key-value storage, hashing concept, basic operations
 - Sorting: Basic sorting algorithms and comparison-based sorting concepts
+- Linear Search: Simple sequential search that scans each element one-by-one to find a target.
+- Binary Search: Fast search on sorted data that repeatedly halves the search range to locate a target.
 
 ---
 🔗 Quick Links
@@ -163,6 +163,8 @@ dsa-practice:
 - 📌 [Stack And Queue](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/stackandqueue)
 - 📌 [HashMaps And Hash Functions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/hashmapandhashfunctions)
 - 📌 [Sorting](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
+- 📌 [Linear And Binary Search](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/linearandbinarysearch)
+  
 ---
 
 🎓 Learnings & Best Practices
