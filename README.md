@@ -61,6 +61,20 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Sorting Algorithms](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
 
+### 🗓 Day 19 – Linear and Binary Search
+**(Date: 07-Jan-2026)**
+- Studied Searching Algorithms:
+  - Linear Search
+  - Binary Search
+- Learned String Handling Concepts in Java:
+  - StringBuffer (Mutable & Thread-safe)
+  - StringBuilder (Mutable & Faster, Non-thread-safe)
+- Understood concepts in depth and solved problems using both searching techniques and string classes.
+- Committed and pushed all work.
+
+🔗 **Code Link:**  
+👉 [Sorting Algorithms](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/linearandbinarysearch)
+
 ---
 ## 🧩 Section B : Scenario-Based Problems Progress
 
