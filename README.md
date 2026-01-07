@@ -154,6 +154,16 @@ Committed and pushed all work.
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
 
+### 🗓 Day 18 – Scenario-Based Practice  
+**(Date: 06-Jan-2026)**
+- Solved **4** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+  
+🔗 **Code Links:**       
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
+
 ---
+
 🧮 Section C : LeetCode-based Problems Progress
 ---
