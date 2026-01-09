@@ -60,6 +60,8 @@ BridgeLabz-Training/
 │   │               ├── 📁 linkedlists/                # singly, doubly & circular
 │   │               └── 📁 stackandqueue/              # Stack:Last-In-First-Out (LIFO) & Queue:First-In-First-Out (FIFO)
 │   │               └── 📁 hashmapandhashfunctions/    # Key-Value pairs
+|   |               └── 📁 linearandbinarysearch/      # Concepts of linear and binary Search
+|   |               └── 📁 runtimeanalysis/            # Time complexity concepts & comparison
 │   ├── 📁 leet-code-codebase/                         # LeetCode solutions
 │   └── 📁 scenario-based-codebase/                    # Real-world problems
 |
@@ -99,6 +101,7 @@ Learning Milestones
 |  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
 |  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
 |  19 | 07-jan      | linear and binary Search       | Concepts of linear and binary Search   |
+|  21 | 09-jan      | Runtime Analysis               | Time complexity concepts & comparison  |
 
 ---
 
@@ -164,7 +167,8 @@ dsa-practice:
 - 📌 [HashMaps And Hash Functions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/hashmapandhashfunctions)
 - 📌 [Sorting](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
 - 📌 [Linear And Binary Search](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/linearandbinarysearch)
-  
+- 📌 [Runtime Analysis](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/runtimeanalysis)
+
 ---
 
 🎓 Learnings & Best Practices
