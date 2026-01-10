@@ -125,14 +125,15 @@ Key Concepts Covered
 
 ---
 ### Data Structures & Algorithms (dsa-practice)
-- DSA Fundamentals: Time & space complexity, basic problem analysis
-- Linked Lists: Singly, doubly, and circular linked lists
-- Stacks: LIFO principle, push/pop operations, stack applications
-- Queues: FIFO principle, enqueue/dequeue operations, queue variants
-- HashMaps: Key-value storage, hashing concept, basic operations
-- Sorting: Basic sorting algorithms and comparison-based sorting concepts
+- DSA Fundamentals: Time & space complexity, basic problem analysis.
+- Linked Lists: Singly, doubly, and circular linked lists.
+- Stacks: LIFO principle, push/pop operations, stack applications.
+- Queues: FIFO principle, enqueue/dequeue operations, queue variants.
+- HashMaps: Key-value storage, hashing concept, basic operations.
+- Sorting: Basic sorting algorithms and comparison-based sorting concepts.
 - Linear Search: Simple sequential search that scans each element one-by-one to find a target.
 - Binary Search: Fast search on sorted data that repeatedly halves the search range to locate a target.
+- Runtime Analysis: Time complexity concepts & comparison.
 
 ---
 🔗 Quick Links
