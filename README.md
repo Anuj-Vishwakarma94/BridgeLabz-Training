@@ -62,7 +62,7 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Sorting Algorithms](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
 
-### 🗓 Day 19 – Linear and Binary Search
+### 🗓 Day 18 – Linear and Binary Search
 **(Date: 07-Jan-2026)**
 - Studied Searching Algorithms:
   - Linear Search
@@ -76,7 +76,7 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Sorting Algorithms](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/linearandbinarysearch)
 
-### 🗓 Day 21 – Runtime Analysis
+### 🗓 Day 19 – Runtime Analysis
 **(Date: 09-Jan-2026)**
 - Studied Runtime Analysis Concepts:
   - Time Complexity (Best, Average, Worst Case)
@@ -94,8 +94,17 @@ BridgeLabz-Training/
 ---
 ## 🧩 Section B : Scenario-Based Problems Progress
 
-### 🗓 Day 22 – Scenario-Based Practice  
+### 🗓 Day 20 – Scenario-Based Practice  
 **(Date: 10-Jan-2026)**
+- Solved **3** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+  
+🔗 **Code Links:**       
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/dsa_scenario_based/src/com)
+
+### 🗓 Day 21 – Scenario-Based Practice  
+**(Date: 12-Jan-2026)**
 - Solved **3** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
 - Committed and pushed all solutions.
@@ -106,8 +115,19 @@ BridgeLabz-Training/
 ---
 ## 🧮 Section C : LeetCode-based Problems Progress
 
-### 🗓 Day 22 – LeetCode problems  
+### 🗓 Day 20 – LeetCode problems  
 **(Date: 10-Jan-2026)**
+
+- Solved LeetCode problems.
+- 5 leetcode problems
+- Organised programs into proper folders.
+- Committed and pushed all changes successfully.
+
+🔗 **Code Link:**   
+👉 [LeetCode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
+
+### 🗓 Day 21 – LeetCode problems  
+**(Date: 12-Jan-2026)**
 
 - Solved LeetCode problems.
 - 5 leetcode problems
