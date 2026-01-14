@@ -91,6 +91,17 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Runtime Analysis](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/runtimeanalysis)
 
+### 🗓 Day 22 – Trees
+**(Date: 13-Jan-2026)**
+- Covered tree basics & terminologies
+- Studied tree traversals and their applications
+- Learned BST operations with time complexity analysis
+- Practiced tree-based problems and real-world scenarios
+- Committed and pushed all work.
+
+🔗 **Code Link:**  
+👉 [Trees](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/trees)
+
 ---
 ## 🧩 Section B : Scenario-Based Problems Progress
 
