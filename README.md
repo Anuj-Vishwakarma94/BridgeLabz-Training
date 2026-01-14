@@ -96,15 +96,14 @@ Learning Milestones
 
 ### **Week 3 : Data Structures & Algorithms**
 
-| Day |     Date    | Topic                          | Coverage                               |
-|-----|-------------|--------------------------------|----------------------------------------|
-|  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
-|  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
-|  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
-|  19 | 07-jan      | linear and binary Search       | Concepts of linear and binary Search   |
-|  21 | 09-jan      | Runtime Analysis               | Time complexity concepts & comparison  |
-|  22 | 13-jan      | Trees                          |
-
+| Day |     Date    | Topic                          | Coverage                                         |
+|-----|-------------|--------------------------------|--------------------------------------------------|
+|  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types           |
+|  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases              |
+|  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic            |
+|  19 | 07-jan      | linear and binary Search       | Concepts of linear and binary Search             |
+|  21 | 09-jan      | Runtime Analysis               | Time complexity concepts & comparison            |
+|  22 | 13-jan      | Trees                          | Tree traversal,Hierarchical non-linear structure |
 ---
 
 Key Concepts Covered
@@ -176,6 +175,7 @@ dsa-practice:
 - 📌 [Trees](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/trees)
 - 📌 [LeetCode Solutions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
 - 📌 [Scenario-Based Solutions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/dsa_scenario_based/src/com)
+
 ---
 
 🎓 Learnings & Best Practices
