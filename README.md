@@ -62,6 +62,7 @@ BridgeLabz-Training/
 │   │               └── 📁 hashmapandhashfunctions/    # Key-Value pairs
 |   |               └── 📁 linearandbinarysearch/      # Concepts of linear and binary Search
 |   |               └── 📁 runtimeanalysis/            # Time complexity concepts & comparison
+|   |               └── 📁 trees/                      # Tree traversal,Hierarchical non-linear structure
 │   ├── 📁 leet-code-codebase/                         # LeetCode solutions
 │   └── 📁 scenario-based-codebase/                    # Real-world problems
 |
@@ -102,6 +103,7 @@ Learning Milestones
 |  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
 |  19 | 07-jan      | linear and binary Search       | Concepts of linear and binary Search   |
 |  21 | 09-jan      | Runtime Analysis               | Time complexity concepts & comparison  |
+|  22 | 13-jan      | Trees                          |
 
 ---
 
@@ -134,6 +136,7 @@ Key Concepts Covered
 - Linear Search: Simple sequential search that scans each element one-by-one to find a target.
 - Binary Search: Fast search on sorted data that repeatedly halves the search range to locate a target.
 - Runtime Analysis: Time complexity concepts & comparison.
+- Trees: Hierarchical data structure used for organized storage, traversal, and efficient searching operations.
 
 ---
 🔗 Quick Links
@@ -159,7 +162,8 @@ java-oops-practice :
  - 📌 [Object Modeling](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
  - 📌 [Inheritance & Types](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
  - 📌 [Encapsulation](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
- 
+ - 📌 [Scenario-Based Solutions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
+
 ---
 
 dsa-practice:
@@ -169,7 +173,9 @@ dsa-practice:
 - 📌 [Sorting](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
 - 📌 [Linear And Binary Search](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/linearandbinarysearch)
 - 📌 [Runtime Analysis](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/runtimeanalysis)
-
+- 📌 [Trees](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/trees)
+- 📌 [LeetCode Solutions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
+- 📌 [Scenario-Based Solutions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/dsa_scenario_based/src/com)
 ---
 
 🎓 Learnings & Best Practices
