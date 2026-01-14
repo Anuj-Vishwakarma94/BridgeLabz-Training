@@ -112,6 +112,15 @@ BridgeLabz-Training/
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/dsa_scenario_based/src/com)
 
+### 🗓 Day 22 – Scenario-Based Practice  
+**(Date: 13-Jan-2026)**
+- Solved **3** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+  
+🔗 **Code Links:**       
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/dsa_scenario_based/src/com)
+
 ---
 ## 🧮 Section C : LeetCode-based Problems Progress
 
@@ -128,6 +137,17 @@ BridgeLabz-Training/
 
 ### 🗓 Day 21 – LeetCode problems  
 **(Date: 12-Jan-2026)**
+
+- Solved LeetCode problems.
+- 5 leetcode problems
+- Organised programs into proper folders.
+- Committed and pushed all changes successfully.
+
+🔗 **Code Link:**   
+👉 [LeetCode](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
+
+### 🗓 Day 22 – LeetCode problems  
+**(Date: 13-Jan-2026)**
 
 - Solved LeetCode problems.
 - 5 leetcode problems
