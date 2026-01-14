@@ -18,7 +18,8 @@ BridgeLabz-Training/
 |   |               |── stacksandqueue/
 |   |               |── hashmapsandhashfunctions/
 |   |               └── linearandbinarysearch/     
-|   |               └── runtimeanalysis/            
+|   |               └── runtimeanalysis/
+|   |               └── trees/          
 │ 	│── leet-code-codebase/
 │ 	│── scenario-based-codebase/
 │── README.md
