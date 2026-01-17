@@ -3,7 +3,7 @@
 ## 📅 Week 2: Java Programming Fundamentals and Object oriented concepts
 ## Section A : Training Learning Progress
 
-### 🗓 Day 9 – Object and Classes  
+### 🗓 Day 1 – Object and Classes  
 **(Date: 26-Dec-2025)**
 ```
 BridgeLabz-Training/
@@ -30,11 +30,11 @@ BridgeLabz-Training/
 - Committed and pushed all changes successfully.
 
 🔗 **Code Link:**  
-👉 [Day 9 – Object and Classes](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+👉 [Day 1 – Object and Classes](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
 
-### 🗓 Day 10 – Constructor
+### 🗓 Day 2 – Constructor
 **(Date: 27-Dec-2025)**
 
 - Learned the working of Constructors in java
@@ -44,11 +44,11 @@ BridgeLabz-Training/
 - Committed and pushed all changes successfully.
 
 🔗 **Code Link:**  
-👉 [Day 10 – Constructors](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructors/level1)
+👉 [Day 2 – Constructors](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructors/level1)
 
 ---
 
-### 🗓 Day 11 – Inbuilt Functions
+### 🗓 Day 3 – Inbuilt Functions
 **(Date: 29-Dec-2025)**
 
  - Studied Java keywords: this, static, and final.
@@ -58,11 +58,11 @@ BridgeLabz-Training/
  - Committed and pushed all work.
 
 🔗 **Code Link:**  
-👉 [Day 11 – Inbuilt Functions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inbuiltfunctions)
+👉 [Day 3 – Inbuilt Functions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inbuiltfunctions)
 
 ---
 
-### 🗓 Day 12 – Object Modeling & Real-World Design
+### 🗓 Day 4 – Object Modeling & Real-World Design
 **(Date: 30-Dec-2025)**
 
  - Studied classes and objects and object modeling:
@@ -77,11 +77,11 @@ BridgeLabz-Training/
  - Committed and pushed all work.
 
 🔗 **Code Link:**  
-👉 [Day 12 – Object Modeling](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+👉 [Day 4 – Object Modeling](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
 
 ---
 
-### 🗓 Day 13 – Java Inheritance and Types
+### 🗓 Day 5 – Java Inheritance and Types
 **(Date: 31-Dec-2025)**
 
 Studied inheritance and its types:
@@ -100,11 +100,11 @@ Access Modifiers and Inheritance
 Committed and pushed all work.
 
 🔗 **Code Link:**  
-👉 [Day 13 – Java Inheritance and Types](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+👉 [Day 5 – Java Inheritance and Types](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 
 ---
 
-### 🗓 Day 14 – Java Encapsulation & Polymorphism
+### 🗓 Day 6 – Java Encapsulation & Polymorphism
 **(Date: 01-Dec-2026)**
 
 Studied Encapsulation & Polymorphism:
@@ -121,13 +121,13 @@ Learned more about best practices.
 Committed and pushed all work.
 
 🔗 **Code Link:**  
-👉 [Day 14 – Java Encapsulation & Polymorphism](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+👉 [Day 6 – Java Encapsulation & Polymorphism](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
 
 ---
 🧩 Section B : Scenario-Based Problems Progress
 ---
 
-### 🗓 Day 15 – Scenario-Based Practice  
+### 🗓 Day 7 – Scenario-Based Practice  
 **(Date: 02-Jan-2026)**
 - Solved **5** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
@@ -136,7 +136,7 @@ Committed and pushed all work.
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com) 
 
-### 🗓 Day 16 – Scenario-Based Practice  
+### 🗓 Day 8 – Scenario-Based Practice  
 **(Date: 03-Jan-2026)**
 - Solved **2** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
@@ -145,7 +145,7 @@ Committed and pushed all work.
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
 
-### 🗓 Day 17 – Scenario-Based Practice  
+### 🗓 Day 9 – Scenario-Based Practice  
 **(Date: 05-Jan-2026)**
 - Solved **2** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
@@ -154,7 +154,7 @@ Committed and pushed all work.
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
 
-### 🗓 Day 18 – Scenario-Based Practice  
+### 🗓 Day 10 – Scenario-Based Practice  
 **(Date: 06-Jan-2026)**
 - Solved **4** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
@@ -163,7 +163,7 @@ Committed and pushed all work.
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
 
-### 🗓 Day 19 – Scenario-Based Practice  
+### 🗓 Day 11 – Scenario-Based Practice  
 **(Date: 07-Jan-2026)**
 - Solved **3** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
@@ -172,7 +172,7 @@ Committed and pushed all work.
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
 
-### 🗓 Day 20 – Scenario-Based Practice  
+### 🗓 Day 12 – Scenario-Based Practice  
 **(Date: 08-Jan-2026)**
 - Solved **2** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
@@ -181,7 +181,7 @@ Committed and pushed all work.
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
 
-### 🗓 Day 21 – Scenario-Based Practice  
+### 🗓 Day 13 – Scenario-Based Practice  
 **(Date: 09-Jan-2026)**
 - Solved **3** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
@@ -190,7 +190,7 @@ Committed and pushed all work.
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
 
-### 🗓 Day 22 – Scenario-Based Practice  
+### 🗓 Day 14 – Scenario-Based Practice  
 **(Date: 12-Jan-2026)**
 - Solved **3** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
@@ -199,7 +199,13 @@ Committed and pushed all work.
 🔗 **Code Links:**       
 👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
 
----
+### 🗓 Day 15 – Scenario-Based Practice  
+**(Date: 15-Jan-2026)**
+- Solved **2** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+  
+🔗 **Code Links:**       
+👉 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/oops_scenario_based/src/com)
 
-🧮 Section C : LeetCode-based Problems Progress
 ---
