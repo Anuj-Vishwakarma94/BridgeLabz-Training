@@ -20,6 +20,8 @@ Week 2 : Object-Oriented Programming
 🔹dsa-practice
 Week 3 : Data Structure and Algorithm
 
+🔹java-collections-practice
+Week 4 : Collections
 
 ---
 📂 Project Structure
@@ -71,6 +73,7 @@ BridgeLabz-Training/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
 │   │               ├── 📁 generics/                   # Generic classes, methods type parameters, bounded types
+|   |               ├── 📁 interfaces/                 # Java Collections Framework concepts including List, Set, Map, and Queue
 └── README.md
 
 ```
@@ -114,9 +117,10 @@ Learning Milestones
 
 ### **Week 4 : Collections**
 
-| Day |Date    | Topic                           | Coverage                                                 |
-|-----|--------|---------------------------------|----------------------------------------------------------|
-|  1  | 17-Jan | Generics                        | Generic classes, methods, type parameters, bounded types |
+| Day |Date    | Topic                           | Coverage                                                                |
+|-----|--------|---------------------------------|-------------------------------------------------------------------------|
+|  1  | 16-Jan | Generics                        | Generic classes, methods, type parameters, bounded types                |
+|  2  | 17-Jan | Interfaces                      | Java Collections Framework concepts including List, Set, Map, and Queue |
 
 ---
 
@@ -154,6 +158,7 @@ Key Concepts Covered
 
 ### Collections Framework (java-collections-practice)
 - Generics: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure.
+- Interfaces: Java Collections Framework concepts including List, Set, Map, and Queue Interfaces.
   
 ---
 
@@ -199,6 +204,7 @@ dsa-practice:
 
 java-collections-practice:
 - 📌 [Generics](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/generics)
+- 📌 [Interfaces](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/interfaces)
 
 ---
 
