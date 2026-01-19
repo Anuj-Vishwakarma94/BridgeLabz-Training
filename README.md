@@ -49,7 +49,6 @@ BridgeLabz-Training/
 |    |                └── 📁 objectmodeling/    # Diagrams, relationships, communication
 |    |                └── 📁 inheritance/       # Types, method overriding, & access modifiers
 |    |                └── 📁 encapsulation/     # Encapsulation concept, data hiding, getters & setters
-|    ├── 📁 leet-code-codebase/                 # LeetCode solutions
 │    └── 📁 scenario-based-codebase/            # Real-world problems
 |
 └── 📁 dsa-practice/
@@ -66,6 +65,12 @@ BridgeLabz-Training/
 │   ├── 📁 leet-code-codebase/                         # LeetCode solutions
 │   └── 📁 scenario-based-codebase/                    # Real-world problems
 |
+└── 📁 java-collections-practice/
+│   └── 📁 gcr-codebase/
+│   │  └── 📁 JavaCollectionsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 generics/                   # Generic classes, methods type parameters, bounded types
 └── README.md
 
 ```
@@ -73,40 +78,50 @@ Learning Milestones
 ## Week 1 : Core Java Programming
 
 | Day | Date   | Topic                          | Coverage                                     |
-|----:|--------|--------------------------------|----------------------------------------------|
-| 1   | 15-Dec | Git & GitHub Setup             | Repository setup, Git workflow               |
-| 2   | 16-Dec | Java Basics                    | Basic syntax, prerequisites                  |
-| 3   | 17-Dec | Programming Elements           | Data types, operators, input handling        |
-| 4   | 18-Dec | Control Flow                   | Conditions, loops, logical problems          |
-| 5   | 19-Dec | Arrays                         | 1D & 2D arrays, traversal                    |
-| 6   | 20-Dec | Methods                        | Method declaration, parameters               |
-| 7   | 22-Dec | Strings                        | String creation, methods                     |
-| 8   | 23-Dec | Extras                         | Math, Random, Date-Time, exceptions          |
+|-----|--------|--------------------------------|----------------------------------------------|
+|  1  | 15-Dec | Git & GitHub Setup             | Repository setup, Git workflow               |
+|  2  | 16-Dec | Java Basics                    | Basic syntax, prerequisites                  |
+|  3  | 17-Dec | Programming Elements           | Data types, operators, input handling        |
+|  4  | 18-Dec | Control Flow                   | Conditions, loops, logical problems          |
+|  5  | 19-Dec | Arrays                         | 1D & 2D arrays, traversal                    |
+|  6  | 20-Dec | Methods                        | Method declaration, parameters               |
+|  7  | 22-Dec | Strings                        | String creation, methods                     |
+|  8  | 23-Dec | Extras                         | Math, Random, Date-Time, exceptions          |
 
 ## Week 2 : Object-Oriented Programming
 
 | Day | Date   | Topic                           | Coverage                                              |
-|----:|--------|---------------------------------|-------------------------------------------------------|
-| 9   | 26-Dec | OOP Basics                      | Procedural vs OOP, fundamentals                       |
-| 10  | 27-Dec | Constructors & Static Concepts  | Constructors, access modifiers, static                |
-| 11  | 29-Dec | this, final, static             | Keywords, instance vs class members                   |
-| 12  | 30-Dec | Object Modeling                 | Diagrams, relationships, communication                |
-| 13  | 31-Dec | Inheritance & Types             | Types, method overriding, & modifiers                 |
-| 14  | 01-Jan | Encapsulation                   | Encapsulation concept, data hiding, getters & setters |
+|-----|--------|---------------------------------|-------------------------------------------------------|
+|  1  | 26-Dec | OOP Basics                      | Procedural vs OOP, fundamentals                       |
+|  2  | 27-Dec | Constructors & Static Concepts  | Constructors, access modifiers, static                |
+|  3  | 29-Dec | this, final, static             | Keywords, instance vs class members                   |
+|  4  | 30-Dec | Object Modeling                 | Diagrams, relationships, communication                |
+|  5  | 31-Dec | Inheritance & Types             | Types, method overriding, & modifiers                 |
+|  6  | 01-Jan | Encapsulation                   | Encapsulation concept, data hiding, getters & setters |
 
 ### **Week 3 : Data Structures & Algorithms**
 
-| Day |     Date    | Topic                          | Coverage                                         |
-|-----|-------------|--------------------------------|--------------------------------------------------|
-|  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types           |
-|  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases              |
-|  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic            |
-|  19 | 07-jan      | linear and binary Search       | Concepts of linear and binary Search             |
-|  21 | 09-jan      | Runtime Analysis               | Time complexity concepts & comparison            |
-|  22 | 13-jan      | Trees                          | Tree traversal,Hierarchical non-linear structure |
+| Day |Date    | Topic                           | Coverage                                         |
+|-----|--------|---------------------------------|--------------------------------------------------|
+|  1  | 02-Jan | DSA Basics & LinkedList         | DSA concepts, LinkedList and its types           |
+|  2  | 03-Jan | Stack, Queue & HashMap          | Core operations and basic use cases              |
+|  3  | 05-Jan | Sorting Algorithms              | Sorting algorithms & comparison logic            |
+|  4  | 07-jan | linear and binary Search        | Concepts of linear and binary Search             |
+|  5  | 09-jan | Runtime Analysis                | Time complexity concepts & comparison            |
+|  8  | 13-jan | Trees                           | Tree traversal,Hierarchical non-linear structure |
+
+---
+
+### **Week 4 : Collections**
+
+| Day |Date    | Topic                           | Coverage                                                 |
+|-----|--------|---------------------------------|----------------------------------------------------------|
+|  1  | 17-Jan | Generics                        | Generic classes, methods, type parameters, bounded types |
+
 ---
 
 Key Concepts Covered
+---
 
 ### Core Java (core-java-practice)
  - Fundamentals: Variables, data types, operators
@@ -137,7 +152,11 @@ Key Concepts Covered
 - Runtime Analysis: Time complexity concepts & comparison.
 - Trees: Hierarchical data structure used for organized storage, traversal, and efficient searching operations.
 
+### Collections Framework (java-collections-practice)
+- Generics: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure.
+  
 ---
+
 🔗 Quick Links
 ---
 
@@ -175,6 +194,11 @@ dsa-practice:
 - 📌 [Trees](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAConcepts/src/com/trees)
 - 📌 [LeetCode Solutions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
 - 📌 [Scenario-Based Solutions](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/dsa_scenario_based/src/com)
+
+---
+
+java-collections-practice:
+- 📌 [Generics](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/generics)
 
 ---
 
