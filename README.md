@@ -232,7 +232,7 @@ BridgeLabz-Training/
 **(Date: 19-Jan-2026)**
 
 - Solved LeetCode problems.
-- 4 leetcode problems
+- 5 leetcode problems
 - Organised programs into proper folders.
 - Committed and pushed all changes successfully.
 
