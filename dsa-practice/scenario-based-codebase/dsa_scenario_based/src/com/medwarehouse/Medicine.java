@@ -1,10 +1,12 @@
 package com.medwarehouse;
-public class Medicine {
-    String name;
-    int expiryDays;
+import java.time.LocalDate;
 
-    public Medicine(String name, int expiryDays) {
+class Medicine {
+    String name;
+    LocalDate expiryDate;
+
+    Medicine(String name, LocalDate expiryDate) {
         this.name = name;
-        this.expiryDays = expiryDays;
+        this.expiryDate = expiryDate;
     }
 }
