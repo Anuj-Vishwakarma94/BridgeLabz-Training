@@ -4,12 +4,11 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.File;
-
 public class FileReadWriteStream {
 	public static void main(String[] args) {
 
-		String sourceFile = "samplefiles/source.txt";
-		String destinationFile = "samplefiles/destination.txt";
+		String sourceFile = "src/com/streams/filehandling/source.txt";
+		String destinationFile = "src/com/streams/filehandling/destination.txt";
 
 		File file = new File(sourceFile);
 
