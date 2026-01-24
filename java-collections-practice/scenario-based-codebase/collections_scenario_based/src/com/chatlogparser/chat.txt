@@ -1,0 +1,5 @@
+[12:02 PM] John: Hey, the build failed again!
+[12:03 PM] Mary: I’ll check the Jenkins pipeline.
+[12:05 PM] John: lol that error again
+[12:06 PM] Sam: brb grabbing coffee
+[12:07 PM] Mary: Fixed the deployment issue.
