@@ -1,0 +1,5 @@
+Name: Harry Potter
+Email: harrypotter@hogwards.in
+Phone: 9876543210
+Skills: Java, Spring, SQL , .Net , Python
+
