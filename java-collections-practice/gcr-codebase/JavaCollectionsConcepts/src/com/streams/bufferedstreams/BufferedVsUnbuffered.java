@@ -12,9 +12,9 @@ public class BufferedVsUnbuffered {
 
 	public static void main(String[] args) {
 
-		String sourceFile = "samplefiles/largefile_100MB.txt";
-		String unbufferedDest = "samplefiles/unbuffered_copy.txt";
-		String bufferedDest = "samplefiles/buffered_copy.txt";
+		String sourceFile = "src/com/streams/bufferedstreams/largefile.txt";
+		String unbufferedDest = "src/com/streams/bufferedstreams/unbuffered.txt";
+		String bufferedDest = "src/com/streams/bufferedstreams/buffered.txt";
 
 		// Unbuffered copy
 		long unbufferedTime = copyUsingUnbufferedStreams(sourceFile, unbufferedDest);
