@@ -1,0 +1,9 @@
+Java streams are powerful for processing large files.
+Java streams make file handling easier and faster.
+BufferedReader is commonly used to read large files efficiently.
+
+Java supports object oriented programming.
+Java is platform independent and secure.
+
+Streams in Java help in handling input and output.
+File processing with Java streams is efficient.
