@@ -8,15 +8,14 @@ import java.io.IOException;
 
 public class StudentDataStream {
 	public static void main(String[] args) {
-		String filePath = "samplefiles/student.dat";
+		String filePath = "src/com/streams/datastreams/student.dat";
 
 		// Write student data
 		try (DataOutputStream dos = new DataOutputStream(new FileOutputStream(filePath))) {
 
-			// Writing primitive data
-			dos.writeInt(101); // Roll Number
-			dos.writeUTF("Gosai Mahadev"); // Name
-			dos.writeDouble(8.7); // GPA
+			dos.writeInt(101); 
+			dos.writeUTF("Andrew tate"); 
+			dos.writeDouble(8.7); 
 
 			System.out.println("Student data written successfully.");
 
