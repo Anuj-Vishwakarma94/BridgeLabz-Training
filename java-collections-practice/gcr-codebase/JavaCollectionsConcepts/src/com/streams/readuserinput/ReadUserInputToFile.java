@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class ReadUserInputToFile {
 	public static void main(String[] args) {
-		String filePath = "D:\\BridgeLabz-Training\\java-collections-practice\\gcr-codebase\\CollectionsConcepts\\src\\com\\streams\\samplefiles\\userinfo.txt";
+		String filePath = "src/com/streams/readuserinput/userinfo.txt";
 
 		// Try-with-resources ensures resources are closed properly
 		try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
