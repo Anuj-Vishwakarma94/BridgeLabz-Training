@@ -1,0 +1,15 @@
+Buffered streams improve I/O performance by reducing the number of direct disk access operations.
+Java provides BufferedInputStream and BufferedOutputStream to wrap unbuffered streams.
+This file is used to test performance differences between buffered and unbuffered streams.
+
+Learning Java I/O streams is important for interviews and real-world applications.
+FileInputStream reads data byte by byte directly from disk.
+BufferedInputStream reads data in chunks and stores it in memory buffer.
+
+This line is intentionally repeated.
+This line is intentionally repeated.
+This line is intentionally repeated.
+This line is intentionally repeated.
+This line is intentionally repeated.
+
+Performance testing helps understand why buffering is important in file handling.
