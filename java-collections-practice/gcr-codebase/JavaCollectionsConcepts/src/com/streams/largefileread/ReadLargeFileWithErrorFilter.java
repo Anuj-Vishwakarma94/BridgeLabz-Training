@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ReadLargeFileWithErrorFilter {
 	public static void main(String[] args) {
-		String filePath = "samplefiles/largefile.log";
+		String filePath = "src/com/streams/largefileread/largefile.log";
 
 		// Try-with-resources ensures proper closing
 		try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
