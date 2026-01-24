@@ -12,7 +12,7 @@ import java.util.Comparator;
 
 public class TopFiveWordCount {
 	public static void main(String[] args) {
-		String filePath = "samplefiles/largefile_100MB.txt";
+		String filePath = "src/com/streams/wordcount/largefile.txt";
 
 		HashMap<String, Integer> wordCountMap = new HashMap<>();
 
