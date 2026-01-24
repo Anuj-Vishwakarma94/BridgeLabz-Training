@@ -8,8 +8,8 @@ import java.io.IOException;
 
 public class ImageByteArrayCopy {
 	public static void main(String[] args) {
-		String sourceImage = "samplefiles/source.jpg";
-		String destinationImage = "samplefiles/copied.jpg";
+		String sourceImage = "src/com/streams/bytearray/source.jpg";
+		String destinationImage = "src/com/streams/bytearray/copied.jpg";
 
 		try {
 			// Read image into byte array
