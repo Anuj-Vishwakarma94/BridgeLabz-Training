@@ -8,8 +8,8 @@ import java.io.IOException;
 
 public class UppercaseToLowercaseFileCopy {
 	public static void main(String[] args) {
-		String sourceFile = "samplefiles/source.txt";
-		String destinationFile = "samplefiles/lowercase.txt";
+		String sourceFile = "src/com/streams/filterstreams/data.txt";
+		String destinationFile = "src/com/streams/filterstreams/lowercase.txt";
 
 		// Try-with-resources ensures streams are closed properly
 		try (BufferedReader reader = new BufferedReader(new FileReader(sourceFile));
