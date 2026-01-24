@@ -1,0 +1,7 @@
+RollNo,Name,Subject,Marks
+101,Ravi,Math,95
+102,Anita,Science,88
+103,Rohan,Math,91
+104,Neha,Science,92
+105,Ajay,Math,abc
+106,Meera,Science,85
