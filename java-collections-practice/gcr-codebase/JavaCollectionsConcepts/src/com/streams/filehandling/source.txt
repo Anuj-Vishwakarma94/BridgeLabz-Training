@@ -1,0 +1,8 @@
+Character streams are used to read and write text data in Java.
+They work with Unicode characters instead of raw bytes.
+
+FileReader reads characters from a text file.
+FileWriter writes characters to a text file.
+
+This file is used as the source file
+for demonstrating character stream operations.
