@@ -121,7 +121,7 @@ BridgeLabz-Training/
 ---
 
 ## 🗓 Day 5 – Regex & JUnit  
-**Date: 20-Jan-2026**
+**Date: 21-Jan-2026**
 
 
 - ### Regex
@@ -142,13 +142,13 @@ BridgeLabz-Training/
 - All practice completed, committed, and pushed .
 
 🔗 **Code Link:**       
-👉 [Regex](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/regex)
+👉 [Regex](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/regex)    
 👉 [JUnit](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/junit)
 
 ---
 
 ## 🗓 Day 6 – Annotations & Reflection  
-**Date: 21-Jan-2026**
+**Date: 22-Jan-2026**
 
 - Studied Java Annotations and their purpose.
 - Annotations:
@@ -166,7 +166,7 @@ BridgeLabz-Training/
 - All practice work completed, committed, and pushed. 
 
 🔗 **Code Link:**       
-👉 [Annotations](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/annotation)
+👉 [Annotations](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/annotation)  
 👉 [Reflection](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/reflection)
 
 ---
