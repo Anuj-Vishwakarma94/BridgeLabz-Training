@@ -60,7 +60,7 @@ BridgeLabz-Training/
 ---
 
 ### 🗓 Day 3 – Streams
-**Date: 18-Jan-2026**
+**Date: 19-Jan-2026**
 - Practiced Java I/O Streams and file handling concepts.
 - File Handling:
   - Read and write text files using FileInputStream and FileOutputStream.
@@ -90,5 +90,32 @@ BridgeLabz-Training/
 
 🔗 **Code Link:**       
 👉 [Streams](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/streams)
+
+---
+
+## 🗓 Day 4 – Exception Handling  
+**Date: 20-Jan-2026**
+
+- **Checked Exception**
+  - Handled `IOException` while reading a file.
+- **Unchecked Exception**
+  - Managed `ArithmeticException` and `InputMismatchException` during division.
+- **Custom Exception**
+  - Created and used `InvalidAgeException`.
+- **Multiple Catch Blocks**
+  - Handled `ArrayIndexOutOfBoundsException` and `NullPointerException`.
+- **try-with-resources**
+  - Used auto-closing resources with `BufferedReader`.
+- **throw vs throws**
+  - Validated input and propagated exceptions to caller.
+- **finally Block**
+  - Ensured execution of cleanup code.
+- **Exception Propagation**
+  - Observed exception flow across multiple methods.
+- **Nested try-catch**
+  - Managed array access and division errors.
+
+🔗 **Code Link:**       
+👉 [Exception Handling](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/exceptionhandling)
 
 ---
