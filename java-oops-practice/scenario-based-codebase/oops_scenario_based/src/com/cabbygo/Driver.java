@@ -1,0 +1,23 @@
+package com.cabbygo;
+public class Driver {
+
+    private String name;
+    private String licenseNumber;
+    private double rating;   // encapsulated
+
+    public Driver(String name, String licenseNumber, double rating) {
+        this.name = name;
+        this.licenseNumber = licenseNumber;
+        this.rating = rating;
+    }
+
+    public String getName() { return name; }
+    public String getLicenseNumber() { return licenseNumber; }
+    public double getRating() { return rating; }
+
+    public void showDriverInfo() {
+        System.out.println("Driver: " + name +
+                " | License: " + licenseNumber +
+                " | Rating: " + rating);
+    }
+}
