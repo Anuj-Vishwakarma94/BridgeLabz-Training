@@ -139,6 +139,34 @@ BridgeLabz-Training/
 - Effective input validation using Regex.
 - Importance of unit testing.
 - Improved code reliability and maintainability.
-- All practice completed, committed, and pushed 
+- All practice completed, committed, and pushed .
+
+🔗 **Code Link:**       
+👉 [Regex](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/regex)
+👉 [JUnit](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/junit)
+
+---
+
+## 🗓 Day 6 – Annotations & Reflection  
+**Date: 21-Jan-2026**
+
+- Studied Java Annotations and their purpose.
+- Annotations:
+  - Built-in annotations: `@Override`, `@Deprecated`, `@SuppressWarnings`.
+  - Meta-annotations: `@Retention`, `@Target`.
+  - Created custom annotations.
+- Learned Reflection API:
+  - Accessing class metadata at runtime.
+  - Reading fields, methods, and constructors.
+  - Invoking methods dynamically.
+- Practiced:
+  - Using reflection with custom annotations.
+  - Runtime inspection and dynamic behavior.
+- Understood use cases in frameworks (Spring, Hibernate, JUnit).
+- All practice work completed, committed, and pushed. 
+
+🔗 **Code Link:**       
+👉 [Annotations](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/annotation)
+👉 [Reflection](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/reflection)
 
 ---
