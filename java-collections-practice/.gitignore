@@ -1,17 +1,13 @@
-/.metadata/
-# Eclipse specific files
+# Eclipse / IDE files
 .metadata/
-.settings/
-.classpath
 .project
+.classpath
+.settings/
 
 # Java build output
 bin/
-target/
+*.class
 
-# Logs
-*.log 
-
-# OS generated files
+# OS files
 .DS_Store
 Thumbs.db
