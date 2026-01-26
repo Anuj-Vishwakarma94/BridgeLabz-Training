@@ -119,3 +119,26 @@ BridgeLabz-Training/
 👉 [Exception Handling](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/exceptionhandling)
 
 ---
+
+## 🗓 Day 5 – Regex & JUnit  
+**Date: 20-Jan-2026**
+
+
+- ### Regex
+  - Pattern and Matcher usage.
+  - Character classes, quantifiers, and groups.
+  - Input validation (email, phone, password, username).
+  - Data extraction and string replacement.
+
+- ### JUnit
+  - Writing test cases using `@Test`.
+  - Assertions: `assertEquals`, `assertTrue`, `assertFalse`, `assertThrows`.
+  - Testing positive and negative scenarios.
+  - Exception testing and test structure.
+
+- Effective input validation using Regex.
+- Importance of unit testing.
+- Improved code reliability and maintainability.
+- All practice completed, committed, and pushed 
+
+---
