@@ -6,7 +6,7 @@ import java.util.*;
 public class SortBySalary {
     public static void main(String[] args) throws Exception {
         List<String[]> list = new ArrayList<>();
-        BufferedReader br = new BufferedReader(new FileReader("employees.csv"));
+        BufferedReader br = new BufferedReader(new FileReader("src/com/csv/employees.csv"));
         br.readLine();
         String line;
         while ((line = br.readLine()) != null)
