@@ -16,6 +16,12 @@ BridgeLabz-Training/
 |   |           └── com/
 |   |               └── generics/
 |   |               └── interfaces/
+|   |               └── streams/
+|   |               └── exceptionhandling/
+|   |               └── regex/
+|   |               └── junit/
+|   |               └── annotation/
+|   |               └── reflection/
 |   |
 └── README.md
 ```
