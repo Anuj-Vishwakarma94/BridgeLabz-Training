@@ -7,7 +7,7 @@ public class ValidateCSV {
     public static void main(String[] args) throws Exception {
         Pattern email = Pattern.compile("^[\\w.-]+@[\\w.-]+$");
         Pattern phone = Pattern.compile("\\d{10}");
-        BufferedReader br = new BufferedReader(new FileReader("data.csv"));
+        BufferedReader br = new BufferedReader(new FileReader("src/com/csv/data.csv"));
         String line = br.readLine();
         while ((line = br.readLine()) != null) {
             String[] d = line.split(",");
