@@ -17,11 +17,14 @@ Week 1 : Fundamentals of Java Programming
 🔹 java-oops-practice
 Week 2 : Object-Oriented Programming
 
-🔹dsa-practice
+🔹 dsa-practice
 Week 3 : Data Structure and Algorithm
 
-🔹java-collections-practice
+🔹 java-collections-practice
 Week 4 : Collections
+
+🔹 java-iostreams-practice
+Week 5 : IO Streams
 
 ---
 📂 Project Structure
@@ -82,7 +85,14 @@ BridgeLabz-Training/
 |   |               ├── 📁 reflection/                 # API to inspect classes, methods, and fields
 |   |               
 │   └── 📁 scenario-based-codebase/                    # Real-world problems
-|   |                 
+|   |
+└── 📁 java-iostreams-practice/
+│   └── 📁 gcr-codebase/
+|   |   └── 📁 IOStreamsConcepts/
+|   |       └── 📁 src/
+|   |           └── 📁 com/
+|   |               ├── 📁 csv/                        # Read, wrote, and processed CSV files using Java I/O with parsing and data handling.    
+|   |            
 └── README.md
 
 ```
@@ -135,6 +145,12 @@ Learning Milestones
 |  5  | 21-jan | Regex and Junit                 | Pattern matching and input validation,JUnit 5 using assertions and annotations            |
 |  6  | 22-jan | Annotations & Reflection        | Used built-in/custom annotations & reflection API to inspect classes, methods, and fields |
 
+### **Week 5 : IO Streams**
+
+| Day |Date    | Topic         | Coverage                                                                                  | 
+|-----|--------|---------------|-------------------------------------------------------------------------------------------|
+|  1  | 23-Jan | CSV           | Read, wrote, and processed CSV files using Java I/O with parsing and data handling        |
+
 ---
 
 Key Concepts Covered
@@ -157,6 +173,7 @@ Key Concepts Covered
  - Inheritance: Parent and Chlid relations
 
 ---
+
 ### Data Structures & Algorithms (dsa-practice)
 - DSA Fundamentals: Time & space complexity, basic problem analysis.
 - Linked Lists: Singly, doubly, and circular linked lists.
@@ -169,6 +186,8 @@ Key Concepts Covered
 - Runtime Analysis: Time complexity concepts & comparison.
 - Trees: Hierarchical data structure used for organized storage, traversal, and efficient searching operations.
 
+---
+
 ### Collections Framework (java-collections-practice)
 - Generics: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure.
 - Interfaces: Java Collections Framework concepts including List, Set, Map, and Queue Interfaces.
@@ -176,7 +195,12 @@ Key Concepts Covered
 - Exception Handling: Handled checked and unchecked exceptions, custom exceptions, catch blocks
 - Regex and Junit: Pattern matching and input validation,JUnit 5 using assertions and annotations
 - Annotations & Reflection: Used built-in/custom annotations & reflection API to inspect classes, methods, and fields
-  
+
+---
+
+### IO Streams (java-iostreams-practice)
+- CSV: Read, wrote, and processed CSV files using Java I/O with parsing and data handling 
+
 ---
 
 🔗 Quick Links
