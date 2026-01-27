@@ -12,6 +12,6 @@ target/
 # Logs
 *.log 
 
-# OS generated files
+# OS generated files 
 .DS_Store
 Thumbs.db
