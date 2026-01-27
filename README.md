@@ -75,6 +75,7 @@ BridgeLabz-Training/
 │   │               ├── 📁 generics/                   # Generic classes, methods type parameters, bounded types
 |   |               ├── 📁 interfaces/                 # Java Collections Framework concepts including List, Set, Map, and Queue
 |   |               ├── 📁 streams/                    # Stream creation, intermediate operations, terminal operations
+|   |               ├── 📁 exceptionhandling/          # Handled checked and unchecked exceptions, custom exceptions, catch blocks
 └── README.md
 
 ```
@@ -118,11 +119,12 @@ Learning Milestones
 
 ### **Week 4 : Collections**
 
-| Day |Date    | Topic                           | Coverage                                                                |
-|-----|--------|---------------------------------|-------------------------------------------------------------------------|
-|  1  | 16-Jan | Generics                        | Generic classes, methods, type parameters, bounded types                |
-|  2  | 17-Jan | Interfaces                      | Java Collections Framework concepts including List, Set, Map, and Queue |
-|  3  | 20-Jan | Streams                         | Stream creation, intermediate operations, terminal operations           |
+| Day |Date    | Topic                           | Coverage                                                                  |
+|-----|--------|---------------------------------|---------------------------------------------------------------------------|
+|  1  | 16-Jan | Generics                        | Generic classes, methods, type parameters, bounded types                  |
+|  2  | 17-Jan | Interfaces                      | Java Collections Framework concepts including List, Set, Map, and Queue   |
+|  3  | 19-Jan | Streams                         | Stream creation, intermediate operations, terminal operations             |
+|  4  | 20-Jan | Exception Handling              | Handled checked and unchecked exceptions, custom exceptions, catch blocks |
 
 ---
 
@@ -208,6 +210,8 @@ java-collections-practice:
 - 📌 [Generics](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/generics)
 - 📌 [Interfaces](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/interfaces)
 - 📌 [Streams](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/streams)
+- 📌 [Exception Handling](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/exceptionhandling)
+  
 ---
 
 🎓 Learnings & Best Practices
