@@ -91,7 +91,8 @@ BridgeLabz-Training/
 |   |   └── 📁 IOStreamsConcepts/
 |   |       └── 📁 src/
 |   |           └── 📁 com/
-|   |               ├── 📁 csv/                        # Read, wrote, and processed CSV files using Java I/O with parsing and data handling.    
+|   |               ├── 📁 csv/                        # Read, wrote, and processed CSV files using Java I/O with parsing and data handling.
+|   |               ├── 📁 json/                       # Read, wrote, and generated JSON data using libraries, handling object mapping 
 |   |            
 └── README.md
 
@@ -150,6 +151,7 @@ Learning Milestones
 | Day |Date    | Topic         | Coverage                                                                                  | 
 |-----|--------|---------------|-------------------------------------------------------------------------------------------|
 |  1  | 23-Jan | CSV           | Read, wrote, and processed CSV files using Java I/O with parsing and data handling        |
+|  2  | 24-Jan | JSON          | Read, wrote, and generated JSON data using libraries, handling object mapping             |
 
 ---
 
@@ -199,7 +201,8 @@ Key Concepts Covered
 ---
 
 ### IO Streams (java-iostreams-practice)
-- CSV: Read, wrote, and processed CSV files using Java I/O with parsing and data handling 
+- CSV: Read, wrote, and processed CSV files using Java I/O with parsing and data handling
+- JSON: Read, wrote, and generated JSON data using libraries, handling object mapping
 
 ---
 
@@ -253,7 +256,13 @@ java-collections-practice:
 - 📌 [Annotations](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/annotation)  
 - 📌 [Reflection](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/reflection)
 - 📌 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/collections_scenario_based/src/com)
-  
+
+---
+
+java-iostreams-practice
+- 📌 [CSV](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConcepts/src/com/csv)
+- 📌 [JSON](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConcepts/src/com/json)
+
 ---
 
 🎓 Learnings & Best Practices
