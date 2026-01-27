@@ -17,7 +17,7 @@ public class DBToCSV {
             Statement s = c.createStatement();
             ResultSet rs = s.executeQuery("select * from employee");
 
-            BufferedWriter bw = new BufferedWriter(new FileWriter("employees.csv"));
+            BufferedWriter bw = new BufferedWriter(new FileWriter("src/com/csv/employees.csv"));
             bw.write("ID,Name,Department,Salary\n");
 
             while (rs.next()) {
