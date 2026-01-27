@@ -4,8 +4,8 @@ import java.io.*;
 
 public class UpdateSalary {
     public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new FileReader("employees.csv"));
-        BufferedWriter bw = new BufferedWriter(new FileWriter("updated.csv"));
+        BufferedReader br = new BufferedReader(new FileReader("src/com/csv/employees.csv"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("src/com/csv/updated.csv"));
         String line = br.readLine();
         bw.write(line + "\n");
         while ((line = br.readLine()) != null) {
