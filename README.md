@@ -78,6 +78,8 @@ BridgeLabz-Training/
 |   |               ├── 📁 exceptionhandling/          # Handled checked and unchecked exceptions, custom exceptions, catch blocks
 |   |               ├── 📁 regex/                      # Pattern matching and input validation using Pattern and Matcher
 |   |               ├── 📁 junit/                      # Unit testing with JUnit 5 using assertions and annotations.
+|   |               ├── 📁 annotations/                # Used built-in/custom annotations
+|   |               ├── 📁 reflection/                 # API to inspect classes, methods, and fields
 |   |                 
 └── README.md
 
@@ -122,13 +124,14 @@ Learning Milestones
 
 ### **Week 4 : Collections**
 
-| Day |Date    | Topic                           | Coverage                                                                       |
-|-----|--------|---------------------------------|--------------------------------------------------------------------------------|
-|  1  | 16-Jan | Generics                        | Generic classes, methods, type parameters, bounded types                       |
-|  2  | 17-Jan | Interfaces                      | Java Collections Framework concepts including List, Set, Map, and Queue        |
-|  3  | 19-Jan | Streams                         | Stream creation, intermediate operations, terminal operations                  |
-|  4  | 20-Jan | Exception Handling              | Handled checked and unchecked exceptions, custom exceptions, catch blocks      |
-|  5  | 21-jan | Regex and Junit                 | Pattern matching and input validation,JUnit 5 using assertions and annotations |
+| Day |Date    | Topic                           | Coverage                                                                                  | 
+|-----|--------|---------------------------------|-------------------------------------------------------------------------------------------|
+|  1  | 16-Jan | Generics                        | Generic classes, methods, type parameters, bounded types                                  |
+|  2  | 17-Jan | Interfaces                      | Java Collections Framework concepts including List, Set, Map, and Queue                   |
+|  3  | 19-Jan | Streams                         | Stream creation, intermediate operations, terminal operations                             |
+|  4  | 20-Jan | Exception Handling              | Handled checked and unchecked exceptions, custom exceptions, catch blocks                 |
+|  5  | 21-jan | Regex and Junit                 | Pattern matching and input validation,JUnit 5 using assertions and annotations            |
+|  6  | 22-jan | Annotations & Reflection        | Used built-in/custom annotations & reflection API to inspect classes, methods, and fields |
 
 ---
 
@@ -169,7 +172,8 @@ Key Concepts Covered
 - Interfaces: Java Collections Framework concepts including List, Set, Map, and Queue Interfaces.
 - Streams: Stream creation, intermediate operations, terminal operations.
 - Exception Handling: Handled checked and unchecked exceptions, custom exceptions, catch blocks
-- Regex and Junit: Pattern matching and input validation,JUnit 5 using assertions and annotations 
+- Regex and Junit: Pattern matching and input validation,JUnit 5 using assertions and annotations
+- Annotations & Reflection: Used built-in/custom annotations & reflection API to inspect classes, methods, and fields
   
 ---
 
@@ -220,6 +224,8 @@ java-collections-practice:
 - 📌 [Exception Handling](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/exceptionhandling)
 - 📌 [Regex](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/regex)
 - 📌 [JUnit](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/junit)
+- 📌 [Annotations](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/annotation)  
+- 📌 [Reflection](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/reflection)
   
 ---
 
