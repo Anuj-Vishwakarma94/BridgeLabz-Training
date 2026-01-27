@@ -76,6 +76,9 @@ BridgeLabz-Training/
 |   |               ├── 📁 interfaces/                 # Java Collections Framework concepts including List, Set, Map, and Queue
 |   |               ├── 📁 streams/                    # Stream creation, intermediate operations, terminal operations
 |   |               ├── 📁 exceptionhandling/          # Handled checked and unchecked exceptions, custom exceptions, catch blocks
+|   |               ├── 📁 regex/                      # Pattern matching and input validation using Pattern and Matcher
+|   |               ├── 📁 junit/                      # Unit testing with JUnit 5 using assertions and annotations.
+|   |                 
 └── README.md
 
 ```
@@ -119,12 +122,13 @@ Learning Milestones
 
 ### **Week 4 : Collections**
 
-| Day |Date    | Topic                           | Coverage                                                                  |
-|-----|--------|---------------------------------|---------------------------------------------------------------------------|
-|  1  | 16-Jan | Generics                        | Generic classes, methods, type parameters, bounded types                  |
-|  2  | 17-Jan | Interfaces                      | Java Collections Framework concepts including List, Set, Map, and Queue   |
-|  3  | 19-Jan | Streams                         | Stream creation, intermediate operations, terminal operations             |
-|  4  | 20-Jan | Exception Handling              | Handled checked and unchecked exceptions, custom exceptions, catch blocks |
+| Day |Date    | Topic                           | Coverage                                                                       |
+|-----|--------|---------------------------------|--------------------------------------------------------------------------------|
+|  1  | 16-Jan | Generics                        | Generic classes, methods, type parameters, bounded types                       |
+|  2  | 17-Jan | Interfaces                      | Java Collections Framework concepts including List, Set, Map, and Queue        |
+|  3  | 19-Jan | Streams                         | Stream creation, intermediate operations, terminal operations                  |
+|  4  | 20-Jan | Exception Handling              | Handled checked and unchecked exceptions, custom exceptions, catch blocks      |
+|  5  | 21-jan | Regex and Junit                 | Pattern matching and input validation,JUnit 5 using assertions and annotations |
 
 ---
 
@@ -163,6 +167,9 @@ Key Concepts Covered
 ### Collections Framework (java-collections-practice)
 - Generics: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure.
 - Interfaces: Java Collections Framework concepts including List, Set, Map, and Queue Interfaces.
+- Streams: Stream creation, intermediate operations, terminal operations.
+- Exception Handling: Handled checked and unchecked exceptions, custom exceptions, catch blocks
+- Regex and Junit: Pattern matching and input validation,JUnit 5 using assertions and annotations 
   
 ---
 
@@ -211,6 +218,8 @@ java-collections-practice:
 - 📌 [Interfaces](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/interfaces)
 - 📌 [Streams](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/streams)
 - 📌 [Exception Handling](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/exceptionhandling)
+- 📌 [Regex](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/regex)
+- 📌 [JUnit](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/junit)
   
 ---
 
