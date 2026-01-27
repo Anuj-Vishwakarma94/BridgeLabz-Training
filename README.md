@@ -74,6 +74,7 @@ BridgeLabz-Training/
 │   │           └── 📁 com/
 │   │               ├── 📁 generics/                   # Generic classes, methods type parameters, bounded types
 |   |               ├── 📁 interfaces/                 # Java Collections Framework concepts including List, Set, Map, and Queue
+|   |               ├── 📁 streams/                    # Stream creation, intermediate operations, terminal operations
 └── README.md
 
 ```
@@ -121,6 +122,7 @@ Learning Milestones
 |-----|--------|---------------------------------|-------------------------------------------------------------------------|
 |  1  | 16-Jan | Generics                        | Generic classes, methods, type parameters, bounded types                |
 |  2  | 17-Jan | Interfaces                      | Java Collections Framework concepts including List, Set, Map, and Queue |
+|  3  | 20-Jan | Streams                         | Stream creation, intermediate operations, terminal operations           |
 
 ---
 
@@ -205,7 +207,7 @@ dsa-practice:
 java-collections-practice:
 - 📌 [Generics](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/generics)
 - 📌 [Interfaces](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/interfaces)
-
+- 📌 [Streams](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/streams)
 ---
 
 🎓 Learnings & Best Practices
