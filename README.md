@@ -80,6 +80,8 @@ BridgeLabz-Training/
 |   |               ├── 📁 junit/                      # Unit testing with JUnit 5 using assertions and annotations.
 |   |               ├── 📁 annotations/                # Used built-in/custom annotations
 |   |               ├── 📁 reflection/                 # API to inspect classes, methods, and fields
+|   |               
+│   └── 📁 scenario-based-codebase/                    # Real-world problems
 |   |                 
 └── README.md
 
@@ -226,6 +228,7 @@ java-collections-practice:
 - 📌 [JUnit](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/junit)
 - 📌 [Annotations](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/annotation)  
 - 📌 [Reflection](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsConcepts/src/com/reflection)
+- 📌 [Scenario Based Problems](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/collections_scenario_based/src/com)
   
 ---
 
