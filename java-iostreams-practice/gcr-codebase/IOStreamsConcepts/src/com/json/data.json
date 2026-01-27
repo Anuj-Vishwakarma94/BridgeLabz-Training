@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Anuj",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Rahul",
+      "role": "User"
+    }
+  ],
+  "total": 2
+}
