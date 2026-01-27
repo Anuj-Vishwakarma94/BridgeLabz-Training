@@ -6,14 +6,14 @@ import java.util.*;
 public class MergeCSV {
     public static void main(String[] args) throws Exception {
         Map<String,String[]> map = new HashMap<>();
-        BufferedReader br1 = new BufferedReader(new FileReader("students1.csv"));
+        BufferedReader br1 = new BufferedReader(new FileReader("src/com/csv/students1.csv"));
         br1.readLine();
         String l;
         while ((l = br1.readLine()) != null) {
             String[] d = l.split(",");
             map.put(d[0], d);
         }
-        BufferedReader br2 = new BufferedReader(new FileReader("students2.csv"));
+        BufferedReader br2 = new BufferedReader(new FileReader("src/com/csv/students2.csv"));
         br2.readLine();
         while ((l = br2.readLine()) != null) {
             String[] d = l.split(",");
