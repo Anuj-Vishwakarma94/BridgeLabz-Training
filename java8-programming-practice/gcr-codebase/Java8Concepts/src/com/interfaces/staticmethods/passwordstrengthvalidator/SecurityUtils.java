@@ -1,0 +1,8 @@
+package com.interfaces.staticmethods.passwordstrengthvalidator;
+
+public interface SecurityUtils {
+
+    public static boolean isStrongPassword(String password) {
+        return password.length() >= 8 && password.matches(".*[A-Z].*") && password.matches(".*[0-9].*");
+    }
+}
