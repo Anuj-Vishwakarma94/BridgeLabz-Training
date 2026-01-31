@@ -12,7 +12,7 @@ public class PasswordStrengthMain {
     }
 
     public static void main(String[] args) {
-        testPassword("vaidik1234");
+        testPassword("anuj1234");
         testPassword("pass");
     }
 }
