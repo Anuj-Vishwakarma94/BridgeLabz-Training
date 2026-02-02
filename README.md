@@ -26,6 +26,9 @@ Week 4 : Collections
 🔹 java-iostreams-practice
 Week 5 : IO Streams
 
+🔹 java8-programming-practice
+Week 6 : Java 8 Features
+
 ---
 📂 Project Structure
 ```
@@ -85,14 +88,27 @@ BridgeLabz-Training/
 |   |               ├── 📁 reflection/                 # API to inspect classes, methods, and fields
 |   |               
 │   └── 📁 scenario-based-codebase/                    # Real-world problems
-|   |
+|   
 └── 📁 java-iostreams-practice/
 │   └── 📁 gcr-codebase/
 |   |   └── 📁 IOStreamsConcepts/
 |   |       └── 📁 src/
 |   |           └── 📁 com/
 |   |               ├── 📁 csv/                        # Read, wrote, and processed CSV files using Java I/O with parsing and data handling.
-|   |               ├── 📁 json/                       # Read, wrote, and generated JSON data using libraries, handling object mapping 
+|   |               ├── 📁 json/                       # Read, wrote, and generated JSON data using libraries, handling object mapping
+|   
+│── 📁 java8-programming-practice/
+│ 	 └── 📁 gcr-codebase/
+|   |   └── 📁  Java8Concepts/
+|   |       └── 📁  src/
+|   |           └── 📁  com/
+|   |               ├── 📁 lambdaexpression/
+|   |               ├── 📁 interfaces/
+|   |               ├── 📁 methodreferences/
+|   |               ├── 📁 collectors/
+|   |               ├── 📁 streamapi/
+|   |               ├── 📁 foreachmethod/
+|   |               ├── 📁 smartcitymanagementsystem/
 |   |            
 └── README.md
 
@@ -153,6 +169,13 @@ Learning Milestones
 |  1  | 23-Jan | CSV           | Read, wrote, and processed CSV files using Java I/O with parsing and data handling        |
 |  2  | 24-Jan | JSON          | Read, wrote, and generated JSON data using libraries, handling object mapping             |
 
+### **Week 6 : Java 8 Features**
+
+| Day |Date    | Topic                                       | Coverage                                                            | 
+|-----|--------|---------------------------------------------|---------------------------------------------------------------------|
+|  1  | 27-Jan | Lambda Expression and Functional Interfaces | (Predicate, Function, Consumer, Supplier) with practical examples.  |
+
+
 ---
 
 Key Concepts Covered
@@ -205,6 +228,11 @@ Key Concepts Covered
 - JSON: Read, wrote, and generated JSON data using libraries, handling object mapping
 
 ---
+
+### Java 8 Features(java8-programming-practice)
+- Lambda Expression: Lambda expressions for concise functional programming and reduced boilerplate code in Java.
+- Functional Interfaces: Functional Interfaces enabling lambda expressions through single abstract method contracts in Java. 
+
 
 🔗 Quick Links
 ---
@@ -262,6 +290,13 @@ java-collections-practice:
 java-iostreams-practice
 - 📌 [CSV](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConcepts/src/com/csv)
 - 📌 [JSON](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConcepts/src/com/json)
+
+---
+
+java8-programming-practice
+- 📌 [Lambda Expression](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/lambdaexpression)
+- 📌 [Functional Interface](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/interfaces)
+- 📌 [Method References](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/methodreferences)
 
 ---
 
