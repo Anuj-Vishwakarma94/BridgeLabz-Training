@@ -102,13 +102,13 @@ BridgeLabz-Training/
 |   |   └── 📁  Java8Concepts/
 |   |       └── 📁  src/
 |   |           └── 📁  com/
-|   |               ├── 📁 lambdaexpression/
-|   |               ├── 📁 interfaces/
-|   |               ├── 📁 methodreferences/
-|   |               ├── 📁 collectors/
-|   |               ├── 📁 streamapi/
-|   |               ├── 📁 foreachmethod/
-|   |               ├── 📁 smartcitymanagementsystem/
+|   |               ├── 📁 lambdaexpression/           # Lambda expressions for concise functional programming and reduced boilerplate code in Java.
+|   |               ├── 📁 interfaces/                 # Functional Interfaces enabling lambda expressions through single abstract method contracts in Java.
+|   |               ├── 📁 methodreferences/           # Method references for reusing existing methods as lambda expressions in a concise form.
+|   |               ├── 📁 collectors/                 # Transforming, grouping, partitioning, and aggregating stream results efficiently.
+|   |               ├── 📁 streamapi/                  # Functional-style data processing using intermediate and terminal operations.
+|   |               ├── 📁 foreachmethod/              # forEach for performing actions on each element of a collection or stream.
+|   |               ├── 📁 smartcitymanagementsystem/  # Mini-project using streams and collectors 
 |   |            
 └── README.md
 
@@ -171,10 +171,10 @@ Learning Milestones
 
 ### **Week 6 : Java 8 Features**
 
-| Day |Date    | Topic                                       | Coverage                                                            | 
-|-----|--------|---------------------------------------------|---------------------------------------------------------------------|
-|  1  | 27-Jan | Lambda Expression and Functional Interfaces | (Predicate, Function, Consumer, Supplier) with practical examples.  |
-
+| Day |Date    | Topic                                       | Coverage                                                               | 
+|-----|--------|---------------------------------------------|------------------------------------------------------------------------|
+|  1  | 27-Jan | Lambda Expression and Functional Interfaces | (Predicate, Function, Consumer, Supplier) with practical examples.     |
+|  2  | 28-Jan | Stream Api and Collectors                   | functional-style data processing, filtering, mapping, and aggregation. |
 
 ---
 
@@ -231,8 +231,9 @@ Key Concepts Covered
 
 ### Java 8 Features(java8-programming-practice)
 - Lambda Expression: Lambda expressions for concise functional programming and reduced boilerplate code in Java.
-- Functional Interfaces: Functional Interfaces enabling lambda expressions through single abstract method contracts in Java. 
-
+- Functional Interfaces: Functional Interfaces enabling lambda expressions through single abstract method contracts in Java.
+- Stream API: Functional-style data processing using intermediate and terminal operations.
+- Collectors: Transforming, grouping, partitioning, and aggregating stream results efficiently.
 
 🔗 Quick Links
 ---
@@ -297,6 +298,10 @@ java8-programming-practice
 - 📌 [Lambda Expression](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/lambdaexpression)
 - 📌 [Functional Interface](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/interfaces)
 - 📌 [Method References](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/methodreferences)
+- 📌 [Stream Api](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/streamapi)     
+- 📌 [For-Each Method](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/foreachmethod)       
+- 📌 [Collectors](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/collectors)      
+- 📌 [Smart City Management System](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/smartcitymanagementsystem)
 
 ---
 
