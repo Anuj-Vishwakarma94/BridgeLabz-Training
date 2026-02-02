@@ -1,6 +1,6 @@
 # 💻 BridgeLabz-Training
 
-## 🗓 Week 5 : Java 8 Features
+## 🗓 Week 6 : Java 8 Features
 
 ## 📘 Section A : Training Learning Progress
 
