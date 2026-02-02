@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💻 BridgeLabz-Training
 
 ## 🗓 Week 3 : Data Structures & Algorithms in Java
