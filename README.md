@@ -40,3 +40,45 @@ BridgeLabz-Training/
 👉 [Lambda Expression](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/lambdaexpression)     
 👉 [Functional Interfaces](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/interfaces)       
 👉 [Method References](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/methodreferences)
+
+---
+
+### 🗓 Day 2 – Stream API & Collectors  
+**Date: 28-Jan-2026**
+
+- Studied Java Stream API introduced in Java 8.
+- Understood difference between collections and streams.
+- Learned stream creation from:
+  - Collections
+  - Arrays
+- Practiced intermediate operations:
+  - filter
+  - map
+  - flatMap
+  - sorted
+- Practiced terminal operations:
+  - forEach
+  - collect
+  - reduce
+  - count
+- Studied Collectors utility class:
+  - toList
+  - toSet
+  - toMap
+  - groupingBy
+  - partitioningBy
+  - joining
+- Performed aggregation operations (sum, average, max, min).
+- Implemented a mini-project named smart city management system using streams and collectors
+- Practiced real-time examples on data processing.
+- Improved code readability and functional-style programming.
+- All work committed and pushed.
+
+🔗 **Code Link:**      
+👉 [Stream Api](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/streamapi)     
+👉 [For-Each Method](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/foreachmethod)       
+👉 [Collectors](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/collectors)      
+👉 [Smart City Management System](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/smartcitymanagementsystem)
+
+---
+
