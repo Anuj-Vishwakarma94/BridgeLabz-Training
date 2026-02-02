@@ -16,7 +16,11 @@ BridgeLabz-Training/
 |   |           └── com/
 |   |               └── lambdaexpression/
 |   |               └── interfaces/
-|   |               └── /
+|   |               └── methodreferences/
+|   |               └── collectors/
+|   |               └── streamapi/
+|   |               └── foreachmethod/
+|   |               └── smartcitymanagementsystem/
 |   |
 └── README.md
 ```
