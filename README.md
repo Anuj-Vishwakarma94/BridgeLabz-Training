@@ -257,8 +257,8 @@ Key Concepts Covered
 ---
 
 ### Java Design and Pattern(java-design-pattern-practice)
--Java Design & pattern: Java design and design patterns for building scalable, maintainable, and loosely coupled applications. 
--Multi-Threading: Multithreading concepts including thread creation, lifecycle, synchronization, and thread safety in Java.
+- Java Design & pattern: Java design and design patterns for building scalable, maintainable, and loosely coupled applications.
+- Multi-Threading: Multithreading concepts including thread creation, lifecycle, synchronization, and thread safety in Java.
 
 ---
 
