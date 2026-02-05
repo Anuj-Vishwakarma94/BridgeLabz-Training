@@ -1,6 +1,6 @@
 # BridgeLabz-Training
 ---
-A comprehensive Java programming training repository covering Core Java fundamentals, Object-Oriented Programming, DSA, Collections, IO Streams, Java 8 concepts and Java Design and Pattern.
+A comprehensive Java programming training repository covering Core Java fundamentals, Object-Oriented Programming, DSA, Collections, IO Streams, Java 8 Concepts, Java Design and Pattern and Multi-Threading.
 
 
 Training Overview 
@@ -119,6 +119,7 @@ BridgeLabz-Training/
 |   |       └──📁 src/
 |   |           └──📁 com/
 |   |               └── 📁 smartuniversitylibrarymanagementsystem/    #Smart University Library Management System designed using GoF patterns (Singleton, Factory, Observer, Builder).
+|   |               └── 📁 multithreading/                            #Multithreading concepts including thread creation, lifecycle, synchronization, and thread safety in Java.
 |   |           
 └── README.md
 
@@ -188,9 +189,11 @@ Learning Milestones
 
 ### **Week 7 : Java Design and Pattern**
 
-| Day |Date    | Topic                                                          | Coverage                                                                   | 
-|-----|--------|----------------------------------------------------------------|----------------------------------------------------------------------------|
-|  1  | 31-Jan | Smart University Library Management System (Design & Patterns) |Used For building scalable, maintainable, and loosely coupled applications. |
+| Day |Date    | Topic                                                          | Coverage                                                                    | 
+|-----|--------|----------------------------------------------------------------|-----------------------------------------------------------------------------|
+|  1  | 31-Jan | Smart University Library Management System (Design & Patterns) | Used For building scalable, maintainable, and loosely coupled applications. |
+|  2  | 02-Feb | Multi-Threading                                                | Thread creation, lifecycle, synchronization, and thread safety in Java.     |
+
 
 ---
 
@@ -255,6 +258,7 @@ Key Concepts Covered
 
 ### Java Design and Pattern(java-design-pattern-practice)
 -Java Design & pattern: Java design and design patterns for building scalable, maintainable, and loosely coupled applications. 
+-Multi-Threading: Multithreading concepts including thread creation, lifecycle, synchronization, and thread safety in Java.
 
 ---
 
@@ -330,6 +334,7 @@ java8-programming-practice
 
 java-design-pattern-practice
 - 📌[Smart University Library Management System](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternConcepts/src/com/smartuniversitylibrarymanagementsystem)
+- 📌[MultiThreading](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternConcepts/src/com/multithreading)
 
 ---
 
