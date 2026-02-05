@@ -27,3 +27,27 @@ BridgeLabz-Training/
 - Prepared integrated design and UML understanding.
 - Focused on real-world mapping of patterns to system requirements.
 - Design and pattern work completed and committed.
+
+🔗 **Code Link:**      
+👉 [Smart University Library Management System](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternConcepts/src/com/smartuniversitylibrarymanagementsystem)    
+
+---
+
+### 🗓 Day 2 – Multithreading  
+**Date: 02-Feb-2026**
+
+- Studied fundamentals of multithreading in Java.
+- Understood process vs thread and benefits of multithreading.
+- Created threads using:
+  - Thread class
+  - Runnable interface
+- Learned thread lifecycle and states.
+- Practiced thread methods: start, run, sleep, join.
+- Understood synchronization and thread safety concepts.
+- Learned use of synchronized keyword and race conditions.
+- Practiced real-time examples with multiple threads.
+- Understood use cases of multithreading in concurrent applications.
+- All work committed and pushed. 
+
+🔗 **Code Link:**      
+👉 [MultiThreading](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternConcepts/src/com/multithreading)
