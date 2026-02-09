@@ -1,0 +1,242 @@
+-- =====================================================
+-- Exercise 3: Library Management System (Advanced Feature)
+-- • Book Inventory
+-- • Student Borrowing Records
+-- • Fine Calculation
+-- • Search Functionality (Multiple Filters)
+-- =====================================================
+
+
+-- =====================================================
+-- Step 1: Create Database
+-- =====================================================
+
+CREATE DATABASE IF NOT EXISTS sqlpractice;
+
+-- Output:
+-- Query OK, 1 row affected (if not exists)
+
+USE sqlpractice;
+
+-- Output:
+-- Database changed
+
+
+-- =====================================================
+-- Step 2: Create Books Table (Inventory)
+-- =====================================================
+
+CREATE TABLE IF NOT EXISTS books (
+    book_id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(200),
+    author VARCHAR(100),
+    genre VARCHAR(50),
+    total_copies INT,
+    available_copies INT
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- =====================================================
+-- Step 3: Create Students Table
+-- =====================================================
+
+CREATE TABLE IF NOT EXISTS students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    student_name VARCHAR(100),
+    email VARCHAR(100)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- =====================================================
+-- Step 4: Create Borrow Records Table
+-- =====================================================
+
+CREATE TABLE IF NOT EXISTS borrow_records (
+    record_id INT PRIMARY KEY AUTO_INCREMENT,
+    student_id INT,
+    book_id INT,
+    borrow_date DATE,
+    return_date DATE,
+    fine DECIMAL(10,2) DEFAULT 0,
+
+    FOREIGN KEY (student_id) REFERENCES students(student_id),
+    FOREIGN KEY (book_id) REFERENCES books(book_id)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- =====================================================
+-- Step 5: Insert Sample Books (Inventory)
+-- =====================================================
+
+INSERT INTO books (title, author, genre, total_copies, available_copies)
+VALUES
+('Java Programming', 'James Gosling', 'Programming', 5, 5),
+('Database Systems', 'C.J. Date', 'Database', 3, 3),
+('Operating Systems', 'Galvin', 'Computer Science', 4, 4),
+('Python Basics', 'Guido van Rossum', 'Programming', 6, 6);
+
+-- Output:
+-- Query OK, 4 rows affected
+
+
+-- =====================================================
+-- Step 6: Insert Students
+-- =====================================================
+
+INSERT INTO students (student_name, email)
+VALUES
+('Anuj', 'anuj@email.com'),
+('Aryan', 'aryan@email.com'),
+('Priyanshi', 'priyanshi@email.com');
+
+-- Output:
+-- Query OK, 3 rows affected
+
+
+-- =====================================================
+-- Step 7: Borrow Book
+-- =====================================================
+
+-- Student 1 borrows Book 1
+
+INSERT INTO borrow_records (student_id, book_id, borrow_date)
+VALUES (1, 1, CURDATE());
+
+-- Reduce available copies
+
+UPDATE books
+SET available_copies = available_copies - 1
+WHERE book_id = 1;
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+-- =====================================================
+-- Step 8: Return Book and Calculate Fine
+-- Fine Rule: ₹10 per day after 7 days
+-- =====================================================
+
+UPDATE borrow_records
+SET return_date = CURDATE(),
+    fine = CASE
+        WHEN DATEDIFF(CURDATE(), borrow_date) > 7
+        THEN (DATEDIFF(CURDATE(), borrow_date) - 7) * 10
+        ELSE 0
+    END
+WHERE record_id = 1;
+
+-- Increase available copies
+
+UPDATE books
+SET available_copies = available_copies + 1
+WHERE book_id = 1;
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+-- =====================================================
+-- Step 9: View Book Inventory
+-- =====================================================
+
+SELECT * FROM books;
+
+-- Output Example:
+-- +---------+-------------------+-------------------+------------------+--------------+------------------+
+-- | book_id | title             | author            | genre            | total_copies | available_copies |
+-- +---------+-------------------+-------------------+------------------+--------------+------------------+
+-- | 1       | Java Programming  | James Gosling     | Programming      | 5            | 5                |
+-- +---------+-------------------+-------------------+------------------+--------------+------------------+
+
+
+-- =====================================================
+-- Step 10: View Borrow Records with Fine
+-- =====================================================
+
+SELECT
+    br.record_id,
+    s.student_name,
+    b.title,
+    br.borrow_date,
+    br.return_date,
+    br.fine
+FROM borrow_records br
+JOIN students s ON br.student_id = s.student_id
+JOIN books b ON br.book_id = b.book_id;
+
+-- Output Example:
+-- +-----------+--------------+------------------+-------------+-------------+------+
+-- | record_id | student_name | title            | borrow_date | return_date | fine |
+-- +-----------+--------------+------------------+-------------+-------------+------+
+-- | 1         | Anuj         | Java Programming | 2026-02-09  | 2026-02-09  | 0.00 |
+-- +-----------+--------------+------------------+-------------+-------------+------+
+
+
+-- =====================================================
+-- Step 11: Search Books by Title
+-- =====================================================
+
+SELECT * FROM books
+WHERE title LIKE '%Java%';
+
+-- Output:
+-- Shows all Java related books
+
+
+-- =====================================================
+-- Step 12: Search Books by Author
+-- =====================================================
+
+SELECT * FROM books
+WHERE author LIKE '%Galvin%';
+
+
+-- =====================================================
+-- Step 13: Search Books by Genre
+-- =====================================================
+
+SELECT * FROM books
+WHERE genre = 'Programming';
+
+
+-- =====================================================
+-- Step 14: Advanced Search (Multiple Filters)
+-- =====================================================
+
+SELECT * FROM books
+WHERE
+    genre = 'Programming'
+    AND available_copies > 0
+    AND author LIKE '%James%';
+
+-- Output:
+-- Shows available programming books by James
+
+
+-- =====================================================
+-- Step 15: View Students
+-- =====================================================
+
+SELECT * FROM students;
+
+
+-- =====================================================
+-- Step 16: View All Borrow History
+-- =====================================================
+
+SELECT * FROM borrow_records;
+
+
+-- =====================================================
+-- END OF LIBRARY MANAGEMENT SYSTEM
+-- =====================================================
