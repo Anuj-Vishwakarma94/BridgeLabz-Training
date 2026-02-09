@@ -1,0 +1,161 @@
+-- ============================================
+-- Simple CRUD Application
+-- EMPLOYEE MANAGEMENT SYSTEM
+-- ============================================
+
+-- Step 1: Create Database
+CREATE DATABASE IF NOT EXISTS sqlpractice;
+
+-- Output:
+-- Query OK, 1 row affected (if not exists)
+
+-- Step 2: Use Database
+USE sqlpractice;
+
+-- Output:
+-- Database changed
+
+
+-- Step 3: Create Table
+CREATE TABLE IF NOT EXISTS employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    salary INT
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- Step 4: View All Employees (Initial)
+SELECT * FROM employees;
+
+-- Output:
+-- Empty set
+
+
+-- ============================================
+-- ADD EMPLOYEES
+-- ============================================
+
+INSERT INTO employees VALUES (1, 'Anuj', 100000);
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+INSERT INTO employees VALUES (2, 'Aryan', 50000);
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+INSERT INTO employees VALUES (3, 'Andrew', 80000);
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+INSERT INTO employees VALUES (4, 'Tristan', 60000);
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+INSERT INTO employees VALUES (5, 'Priyanshi', 120000);
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+-- ============================================
+-- VIEW ALL EMPLOYEES
+-- ============================================
+
+SELECT * FROM employees;
+
+-- Output:
+-- +----+-----------+--------+
+-- | id | name      | salary |
+-- +----+-----------+--------+
+-- |  1 | Anuj      | 100000 |
+-- |  2 | Aryan     |  50000 |
+-- |  3 | Andrew    |  80000 |
+-- |  4 | Tristan   |  60000 |
+-- |  5 | Priyanshi | 120000 |
+-- +----+-----------+--------+
+
+
+-- ============================================
+-- UPDATE EMPLOYEE SALARY
+-- ============================================
+
+UPDATE employees
+SET salary = 70000
+WHERE id = 4;
+
+-- Output:
+-- Query OK, 1 row affected
+-- Rows matched: 1  Changed: 1
+
+
+-- Verify Update
+
+SELECT * FROM employees;
+
+-- Output:
+-- +----+-----------+--------+
+-- | id | name      | salary |
+-- +----+-----------+--------+
+-- |  1 | Anuj      | 100000 |
+-- |  2 | Aryan     |  50000 |
+-- |  3 | Andrew    |  80000 |
+-- |  4 | Tristan   |  70000 |
+-- |  5 | Priyanshi | 120000 |
+-- +----+-----------+--------+
+
+
+-- ============================================
+-- DELETE EMPLOYEE
+-- ============================================
+
+DELETE FROM employees
+WHERE id = 3;
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+-- Verify Delete
+
+SELECT * FROM employees;
+
+-- Output:
+-- +----+-----------+--------+
+-- | id | name      | salary |
+-- +----+-----------+--------+
+-- |  1 | Anuj      | 100000 |
+-- |  2 | Aryan     |  50000 |
+-- |  4 | Tristan   |  70000 |
+-- |  5 | Priyanshi | 120000 |
+-- +----+-----------+--------+
+
+
+-- ============================================
+-- SEARCH EMPLOYEE BY NAME
+-- ============================================
+
+SELECT * FROM employees
+WHERE name = 'Anuj';
+
+-- Output:
+-- +----+------+--------+
+-- | id | name | salary |
+-- +----+------+--------+
+-- |  1 | Anuj | 100000 |
+-- +----+------+--------+
+
+
+-- ============================================
+-- END OF EMPLOYEE MANAGEMENT SYSTEM
+-- ============================================
