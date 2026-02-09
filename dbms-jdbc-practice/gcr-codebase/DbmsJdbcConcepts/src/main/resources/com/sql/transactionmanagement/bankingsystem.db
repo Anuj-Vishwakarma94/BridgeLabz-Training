@@ -1,0 +1,163 @@
+-- ============================================
+-- Banking System
+-- • Transfer money between accounts (Transactions)
+-- • Check balance
+-- • Transaction history
+-- ============================================
+
+
+-- ============================================
+-- Step 1: Create Database
+-- ============================================
+
+CREATE DATABASE IF NOT EXISTS sqlpractice;
+
+-- Output:
+-- Query OK, 1 row affected (if not exists)
+
+USE sqlpractice;
+
+-- Output:
+-- Database changed
+
+
+-- ============================================
+-- Step 2: Create Accounts Table
+-- ============================================
+
+CREATE TABLE IF NOT EXISTS accounts (
+    account_id INT PRIMARY KEY,
+    account_holder VARCHAR(100),
+    balance DECIMAL(10,2)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- ============================================
+-- Step 3: Create Transaction History Table
+-- ============================================
+
+CREATE TABLE IF NOT EXISTS transactions (
+    transaction_id INT AUTO_INCREMENT PRIMARY KEY,
+    from_account INT,
+    to_account INT,
+    amount DECIMAL(10,2),
+    transaction_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- ============================================
+-- Step 4: Insert Sample Accounts
+-- ============================================
+
+INSERT INTO accounts VALUES (101, 'Anuj', 10000);
+
+INSERT INTO accounts VALUES (102, 'Aryan', 8000);
+
+INSERT INTO accounts VALUES (103, 'Priyanshi', 15000);
+
+-- Output:
+-- Query OK, 1 row affected (each)
+
+
+-- ============================================
+-- Step 5: View All Accounts
+-- ============================================
+
+SELECT * FROM accounts;
+
+-- Output:
+-- +------------+----------------+----------+
+-- | account_id | account_holder | balance  |
+-- +------------+----------------+----------+
+-- | 101        | Anuj           | 10000.00 |
+-- | 102        | Aryan          |  8000.00 |
+-- | 103        | Priyanshi      | 15000.00 |
+-- +------------+----------------+----------+
+
+
+-- ============================================
+-- Step 6: Transfer Money Using Transaction
+-- Example: Transfer 2000 from Anuj (101) to Aryan (102)
+-- ============================================
+
+START TRANSACTION;
+
+-- Deduct from sender
+UPDATE accounts
+SET balance = balance - 2000
+WHERE account_id = 101;
+
+-- Add to receiver
+UPDATE accounts
+SET balance = balance + 2000
+WHERE account_id = 102;
+
+-- Record transaction history
+INSERT INTO transactions(from_account, to_account, amount)
+VALUES (101, 102, 2000);
+
+COMMIT;
+
+-- Output:
+-- Query OK, 1 row affected (each update and insert)
+-- Commit complete
+
+
+-- ============================================
+-- Step 7: Check Balance
+-- ============================================
+
+SELECT * FROM accounts
+WHERE account_id = 101;
+
+-- Output:
+-- +------------+----------------+---------+
+-- | account_id | account_holder | balance |
+-- +------------+----------------+---------+
+-- | 101        | Anuj           | 8000.00 |
+-- +------------+----------------+---------+
+
+
+SELECT * FROM accounts
+WHERE account_id = 102;
+
+-- Output:
+-- +------------+----------------+---------+
+-- | account_id | account_holder | balance |
+-- +------------+----------------+---------+
+-- | 102        | Aryan          | 10000.00|
+-- +------------+----------------+---------+
+
+
+-- ============================================
+-- Step 8: View Transaction History
+-- ============================================
+
+SELECT * FROM transactions;
+
+-- Output:
+-- +----------------+--------------+------------+--------+---------------------+
+-- | transaction_id | from_account | to_account | amount | transaction_date   |
+-- +----------------+--------------+------------+--------+---------------------+
+-- | 1              | 101          | 102        | 2000.00| 2026-02-09 12:30:00|
+-- +----------------+--------------+------------+--------+---------------------+
+
+
+-- ============================================
+-- Step 9: View Full Banking Summary
+-- ============================================
+
+SELECT * FROM accounts;
+
+SELECT * FROM transactions;
+
+
+-- ============================================
+-- END OF BANKING SYSTEM
+-- ============================================
