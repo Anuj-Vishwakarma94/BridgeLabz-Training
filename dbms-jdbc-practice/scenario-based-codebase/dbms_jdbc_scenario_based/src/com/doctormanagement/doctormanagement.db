@@ -1,0 +1,268 @@
+-- ============================================
+-- DOCTOR MANAGEMENT
+-- ============================================
+
+
+-- Step 1: Use Database
+
+USE sqlpractice;
+
+-- Output:
+-- Database changed
+
+
+
+-- ============================================
+-- CREATE SPECIALTIES TABLE (LOOKUP TABLE)
+-- ============================================
+
+CREATE TABLE IF NOT EXISTS specialties (
+    specialty_id INT AUTO_INCREMENT PRIMARY KEY,
+    specialty_name VARCHAR(100) UNIQUE NOT NULL
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- MODIFY DOCTORS TABLE TO ADD FK REFERENCE
+-- ============================================
+
+ALTER TABLE doctors
+ADD COLUMN contact VARCHAR(15) UNIQUE,
+ADD COLUMN consultation_fee DECIMAL(10,2),
+ADD COLUMN specialty_id INT,
+ADD COLUMN is_active BOOLEAN DEFAULT TRUE,
+ADD FOREIGN KEY (specialty_id)
+REFERENCES specialties(specialty_id);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- CREATE DOCTOR SCHEDULE TABLE
+-- ============================================
+
+CREATE TABLE IF NOT EXISTS doctor_schedule (
+    schedule_id INT AUTO_INCREMENT PRIMARY KEY,
+    doctor_id INT,
+    available_day VARCHAR(20),
+    available_time VARCHAR(50),
+
+    FOREIGN KEY (doctor_id)
+    REFERENCES doctors(doctor_id)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- CREATE APPOINTMENTS TABLE
+-- ============================================
+
+CREATE TABLE IF NOT EXISTS appointments (
+    appointment_id INT AUTO_INCREMENT PRIMARY KEY,
+    doctor_id INT,
+    patient_name VARCHAR(100),
+    appointment_date DATE,
+
+    FOREIGN KEY (doctor_id)
+    REFERENCES doctors(doctor_id)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- UC-2.1 ADD SPECIALTIES
+-- ============================================
+
+INSERT INTO specialties (specialty_name)
+VALUES
+('Cardiologist'),
+('Dermatologist'),
+('Neurologist'),
+('Orthopedic');
+
+-- Output:
+-- Query OK, 4 rows affected
+
+
+
+-- ============================================
+-- UC-2.1 ADD DOCTOR PROFILE
+-- ============================================
+
+INSERT INTO doctors
+(doctor_name, specialization, contact, consultation_fee, specialty_id)
+VALUES
+('Dr. Sharma','Cardiology','9876500001',800.00,1),
+
+('Dr. Mehta','Dermatology','9876500002',600.00,2);
+
+-- Output:
+-- Query OK, 2 rows affected
+
+
+
+-- ============================================
+-- ADD DOCTOR SCHEDULE
+-- ============================================
+
+INSERT INTO doctor_schedule
+(doctor_id, available_day, available_time)
+VALUES
+(1,'Monday','10:00 AM - 2:00 PM'),
+
+(1,'Wednesday','10:00 AM - 2:00 PM'),
+
+(2,'Tuesday','11:00 AM - 3:00 PM');
+
+-- Output:
+-- Query OK, 3 rows affected
+
+
+
+-- ============================================
+-- UC-2.2 VIEW AVAILABLE SPECIALTIES
+-- ============================================
+
+SELECT * FROM specialties;
+
+-- Output:
+-- +--------------+----------------+
+-- | specialty_id | specialty_name |
+-- +--------------+----------------+
+-- | 1            | Cardiologist   |
+-- | 2            | Dermatologist  |
+-- | 3            | Neurologist    |
+-- | 4            | Orthopedic     |
+-- +--------------+----------------+
+
+
+
+-- ============================================
+-- UC-2.2 UPDATE DOCTOR SPECIALTY (TRANSACTION)
+-- ============================================
+
+START TRANSACTION;
+
+UPDATE doctors
+SET specialty_id = 3
+WHERE doctor_id = 2;
+
+COMMIT;
+
+-- Output:
+-- Query OK, 1 row affected
+-- Commit complete
+
+
+
+-- ============================================
+-- UC-2.3 VIEW DOCTORS BY SPECIALTY
+-- ============================================
+
+SELECT
+d.doctor_id,
+d.doctor_name,
+s.specialty_name,
+d.contact,
+d.consultation_fee,
+ds.available_day,
+ds.available_time
+FROM doctors d
+JOIN specialties s
+ON d.specialty_id = s.specialty_id
+LEFT JOIN doctor_schedule ds
+ON d.doctor_id = ds.doctor_id
+WHERE s.specialty_name = 'Cardiologist'
+AND d.is_active = TRUE;
+
+-- Output:
+-- +-----------+-------------+--------------+------------+------------------+--------------+--------------------+
+-- | doctor_id | doctor_name | specialty    | contact    | consultation_fee | available_day| available_time     |
+-- +-----------+-------------+--------------+------------+------------------+--------------+--------------------+
+-- | 1         | Dr. Sharma  | Cardiologist | 9876500001 | 800.00           | Monday       | 10:00 AM - 2:00 PM |
+-- +-----------+-------------+--------------+------------+------------------+--------------+--------------------+
+
+
+
+-- ============================================
+-- INSERT FUTURE APPOINTMENT (FOR VALIDATION)
+-- ============================================
+
+INSERT INTO appointments
+(doctor_id, patient_name, appointment_date)
+VALUES
+(1,'Aryan Borkar','2026-03-01');
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+
+-- ============================================
+-- UC-2.4 DEACTIVATE DOCTOR PROFILE (SOFT DELETE)
+-- ============================================
+
+UPDATE doctors
+SET is_active = FALSE
+WHERE doctor_id = 2
+AND doctor_id NOT IN
+(
+SELECT doctor_id
+FROM appointments
+WHERE appointment_date > CURDATE()
+);
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+
+-- ============================================
+-- VERIFY DOCTOR STATUS
+-- ============================================
+
+SELECT
+doctor_id,
+doctor_name,
+is_active
+FROM doctors;
+
+-- Output:
+-- +-----------+-------------+----------+
+-- | doctor_id | doctor_name | is_active|
+-- +-----------+-------------+----------+
+-- | 1         | Dr. Sharma  | 1        |
+-- | 2         | Dr. Mehta   | 0        |
+-- +-----------+-------------+----------+
+
+
+
+-- ============================================
+-- VIEW ALL DOCTOR DATA
+-- ============================================
+
+SELECT * FROM doctors;
+
+SELECT * FROM specialties;
+
+SELECT * FROM doctor_schedule;
+
+SELECT * FROM appointments;
+
+
+
+-- ============================================
+-- END OF DOCTOR MANAGEMENT
+-- ============================================
