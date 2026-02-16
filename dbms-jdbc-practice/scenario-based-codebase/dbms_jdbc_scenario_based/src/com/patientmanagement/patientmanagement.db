@@ -1,0 +1,218 @@
+-- ==========================================================
+-- Patient Management System 
+-- ==========================================================
+
+
+-- ==========================================================
+-- Step 1: Create Database
+-- ==========================================================
+
+CREATE DATABASE IF NOT EXISTS sqlpractice;
+
+-- Output:
+-- Query OK, 1 row affected (if not exists)
+
+USE sqlpractice;
+
+-- Output:
+-- Database changed
+
+
+-- ==========================================================
+-- Step 2: Create Patients Table
+-- Auto-increment Patient ID
+-- Unique phone and email validation
+-- ==========================================================
+
+CREATE TABLE IF NOT EXISTS patients (
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    dob DATE NOT NULL,
+    phone VARCHAR(15) UNIQUE,
+    email VARCHAR(100) UNIQUE,
+    address VARCHAR(255),
+    blood_group VARCHAR(5)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- ==========================================================
+-- Step 3: Create Doctors Table
+-- ==========================================================
+
+CREATE TABLE IF NOT EXISTS doctors (
+    doctor_id INT AUTO_INCREMENT PRIMARY KEY,
+    doctor_name VARCHAR(100),
+    specialization VARCHAR(100)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- ==========================================================
+-- Step 4: Create Visits Table
+-- ==========================================================
+
+CREATE TABLE IF NOT EXISTS visits (
+    visit_id INT AUTO_INCREMENT PRIMARY KEY,
+    patient_id INT,
+    doctor_id INT,
+    visit_date DATE,
+    diagnosis VARCHAR(255),
+
+    FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    FOREIGN KEY (doctor_id) REFERENCES doctors(doctor_id)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- ==========================================================
+-- UC-1.1 Register New Patient (DOB Updated)
+-- ==========================================================
+
+INSERT INTO patients (name, dob, phone, email, address, blood_group)
+VALUES ('Anuj Vishwakarma', '2004-07-28', '9876543210',
+        'anuj@email.com', 'Bhopal', 'O+');
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+INSERT INTO patients (name, dob, phone, email, address, blood_group)
+VALUES ('Aryan Sharma', '2002-08-15', '9123456789',
+        'aryan@email.com', 'Delhi', 'A+');
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+-- ==========================================================
+-- Insert Doctors
+-- ==========================================================
+
+INSERT INTO doctors (doctor_name, specialization)
+VALUES
+('Dr. Sharma', 'Cardiologist'),
+('Dr. Mehta', 'Dermatologist');
+
+-- Output:
+-- Query OK, 2 rows affected
+
+
+-- ==========================================================
+-- Insert Visit Records
+-- ==========================================================
+
+INSERT INTO visits (patient_id, doctor_id, visit_date, diagnosis)
+VALUES
+(1, 1, '2026-02-01', 'High Blood Pressure'),
+(1, 2, '2026-02-05', 'Skin Allergy'),
+(2, 1, '2026-02-07', 'Chest Pain');
+
+-- Output:
+-- Query OK, 3 rows affected
+
+
+-- ==========================================================
+-- UC-1.2 Update Patient Information
+-- ==========================================================
+
+UPDATE patients
+SET address = 'Indore',
+    phone = '9999999999'
+WHERE patient_id = 1;
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+-- Verify Update
+
+SELECT * FROM patients
+WHERE patient_id = 1;
+
+-- Output Example:
+-- +------------+------------------+------------+------------+-------------------+---------+-------------+
+-- | patient_id | name             | dob        | phone      | email             | address | blood_group |
+-- +------------+------------------+------------+------------+-------------------+---------+-------------+
+-- | 1          | Anuj Vishwakarma | 2004-07-28 | 9999999999 | anuj@email.com    | Indore  | O+          |
+-- +------------+------------------+------------+------------+-------------------+---------+-------------+
+
+
+-- ==========================================================
+-- UC-1.3 Search Patient Records
+-- ==========================================================
+
+-- Search by Name
+
+SELECT * FROM patients
+WHERE name LIKE '%Anuj%';
+
+
+-- Search by Phone
+
+SELECT * FROM patients
+WHERE phone = '9999999999';
+
+
+-- Search by Patient ID
+
+SELECT * FROM patients
+WHERE patient_id = 1;
+
+
+-- ==========================================================
+-- UC-1.4 View Patient Visit History (JOIN)
+-- ==========================================================
+
+SELECT
+    p.patient_id,
+    p.name AS patient_name,
+    d.doctor_name,
+    d.specialization,
+    v.visit_date,
+    v.diagnosis
+FROM visits v
+JOIN patients p ON v.patient_id = p.patient_id
+JOIN doctors d ON v.doctor_id = d.doctor_id
+WHERE p.patient_id = 1
+ORDER BY v.visit_date;
+
+-- Output Example:
+-- +------------+------------------+-------------+---------------+------------+----------------------+
+-- | patient_id | patient_name     | doctor_name | specialization| visit_date | diagnosis            |
+-- +------------+------------------+-------------+---------------+------------+----------------------+
+-- | 1          | Anuj Vishwakarma | Dr. Sharma  | Cardiologist  | 2026-02-01 | High Blood Pressure  |
+-- | 1          | Anuj Vishwakarma | Dr. Mehta   | Dermatologist | 2026-02-05 | Skin Allergy         |
+-- +------------+------------------+-------------+---------------+------------+----------------------+
+
+
+-- ==========================================================
+-- View All Patients
+-- ==========================================================
+
+SELECT * FROM patients;
+
+
+-- ==========================================================
+-- View All Doctors
+-- ==========================================================
+
+SELECT * FROM doctors;
+
+
+-- ==========================================================
+-- View All Visits
+-- ==========================================================
+
+SELECT * FROM visits;
+
+
+-- ==========================================================
+-- END OF PATIENT MANAGEMENT SYSTEM
+-- ==========================================================
