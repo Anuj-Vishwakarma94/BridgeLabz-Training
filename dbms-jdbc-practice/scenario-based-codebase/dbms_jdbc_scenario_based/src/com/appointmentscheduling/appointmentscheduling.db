@@ -1,0 +1,264 @@
+-- ============================================
+-- APPOINTMENT SCHEDULING SYSTEM 
+-- ============================================
+
+
+-- ============================================
+-- STEP 1: CREATE DATABASE
+-- ============================================
+
+CREATE DATABASE IF NOT EXISTS appointment_system;
+
+-- Output:
+-- Query OK, 1 row affected (if not exists)
+
+USE appointment_system;
+
+-- Output:
+-- Database changed
+
+
+
+-- ============================================
+-- STEP 2: CREATE SPECIALTIES TABLE
+-- ============================================
+
+CREATE TABLE specialties (
+    specialty_id INT AUTO_INCREMENT PRIMARY KEY,
+    specialty_name VARCHAR(100) UNIQUE NOT NULL
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- STEP 3: CREATE DOCTORS TABLE
+-- ============================================
+
+CREATE TABLE doctors (
+    doctor_id INT AUTO_INCREMENT PRIMARY KEY,
+    doctor_name VARCHAR(100) NOT NULL,
+    specialization VARCHAR(100),
+    contact VARCHAR(15) UNIQUE,
+    consultation_fee DECIMAL(10,2),
+    specialty_id INT,
+    is_active BOOLEAN DEFAULT TRUE,
+    max_daily_slots INT DEFAULT 10,
+
+    FOREIGN KEY (specialty_id)
+    REFERENCES specialties(specialty_id)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- STEP 4: CREATE PATIENTS TABLE
+-- ============================================
+
+CREATE TABLE patients (
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    dob DATE,
+    phone VARCHAR(15) UNIQUE,
+    email VARCHAR(100) UNIQUE,
+    address VARCHAR(255),
+    blood_group VARCHAR(5)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- STEP 5: CREATE DOCTOR SCHEDULE TABLE
+-- ============================================
+
+CREATE TABLE doctor_schedule (
+    schedule_id INT AUTO_INCREMENT PRIMARY KEY,
+    doctor_id INT,
+    available_day VARCHAR(20),
+    available_time VARCHAR(50),
+
+    FOREIGN KEY (doctor_id)
+    REFERENCES doctors(doctor_id)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- STEP 6: CREATE APPOINTMENTS TABLE
+-- ============================================
+
+CREATE TABLE appointments (
+    appointment_id INT AUTO_INCREMENT PRIMARY KEY,
+    patient_id INT,
+    doctor_id INT,
+    appointment_date DATE,
+    appointment_time TIME,
+    status VARCHAR(20) DEFAULT 'SCHEDULED',
+
+    FOREIGN KEY (patient_id)
+    REFERENCES patients(patient_id),
+
+    FOREIGN KEY (doctor_id)
+    REFERENCES doctors(doctor_id)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- STEP 7: CREATE APPOINTMENT AUDIT TABLE
+-- ============================================
+
+CREATE TABLE appointment_audit (
+    audit_id INT AUTO_INCREMENT PRIMARY KEY,
+    appointment_id INT,
+    action VARCHAR(50),
+    action_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (appointment_id)
+    REFERENCES appointments(appointment_id)
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+
+-- ============================================
+-- STEP 8: INSERT SPECIALTIES
+-- ============================================
+
+INSERT INTO specialties (specialty_name)
+VALUES
+('Cardiologist'),
+('Dermatologist'),
+('Neurologist'),
+('Orthopedic');
+
+-- Output:
+-- Query OK, 4 rows affected
+
+
+
+-- ============================================
+-- STEP 9: INSERT DOCTORS
+-- ============================================
+
+INSERT INTO doctors
+(doctor_name, specialization, contact, consultation_fee, specialty_id, max_daily_slots)
+VALUES
+('Dr. Sharma','Cardiology','9876500001',800.00,1,10),
+('Dr. Mehta','Dermatology','9876500002',600.00,2,8);
+
+-- Output:
+-- Query OK, 2 rows affected
+
+
+
+-- ============================================
+-- STEP 10: INSERT PATIENTS
+-- ============================================
+
+INSERT INTO patients
+(name, dob, phone, email, address, blood_group)
+VALUES
+('Anuj Vishwakarma','2004-07-28','9999999999','anuj@email.com','Indore','O+'),
+('Aryan Sharma','2002-08-15','9123456789','aryan@email.com','Delhi','A+');
+
+-- Output:
+-- Query OK, 2 rows affected
+
+
+
+-- ============================================
+-- STEP 11: INSERT DOCTOR SCHEDULE
+-- ============================================
+
+INSERT INTO doctor_schedule
+(doctor_id, available_day, available_time)
+VALUES
+(1,'Monday','10:00 AM - 2:00 PM'),
+(1,'Wednesday','10:00 AM - 2:00 PM'),
+(2,'Tuesday','11:00 AM - 3:00 PM');
+
+-- Output:
+-- Query OK, 3 rows affected
+
+
+
+-- ============================================
+-- STEP 12: BOOK APPOINTMENT
+-- ============================================
+
+INSERT INTO appointments
+(patient_id, doctor_id, appointment_date, appointment_time, status)
+VALUES
+(1,1,'2026-02-16','10:30:00','SCHEDULED');
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+
+-- ============================================
+-- STEP 13: CHECK DOCTOR AVAILABILITY
+-- ============================================
+
+SELECT appointment_time, COUNT(*) AS booked_slots
+FROM appointments
+WHERE doctor_id = 1
+AND appointment_date = '2026-02-16'
+AND status = 'SCHEDULED'
+GROUP BY appointment_time;
+
+-- Output:
+-- +------------------+--------------+
+-- | appointment_time | booked_slots |
+-- +------------------+--------------+
+-- | 10:30:00         | 1            |
+-- +------------------+--------------+
+
+
+
+-- ============================================
+-- STEP 14: VIEW DAILY APPOINTMENT SCHEDULE
+-- ============================================
+
+SELECT
+a.appointment_id,
+p.name AS patient_name,
+d.doctor_name,
+d.specialization,
+a.appointment_date,
+a.appointment_time,
+a.status
+FROM appointments a
+JOIN patients p ON a.patient_id = p.patient_id
+JOIN doctors d ON a.doctor_id = d.doctor_id
+ORDER BY a.appointment_time;
+
+-- Output:
+-- +----------------+------------------+-------------+----------------+------------------+------------------+-----------+
+-- | appointment_id | patient_name     | doctor_name | specialization | appointment_date | appointment_time | status    |
+-- +----------------+------------------+-------------+----------------+------------------+------------------+-----------+
+-- | 1              | Anuj Vishwakarma | Dr. Sharma  | Cardiology     | 2026-02-16       | 10:30:00         | SCHEDULED |
+-- +----------------+------------------+-------------+----------------+------------------+------------------+-----------+
+
+
+
+-- ============================================
+-- END OF DATABASE FILE
+-- ============================================
