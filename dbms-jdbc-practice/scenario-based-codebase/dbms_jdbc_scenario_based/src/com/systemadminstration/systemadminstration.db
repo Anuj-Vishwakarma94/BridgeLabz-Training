@@ -1,0 +1,252 @@
+-- ============================================
+-- SYSTEM ADMINISTRATION 
+-- ============================================
+
+USE sqlpractice;
+
+-- Output:
+-- Database changed
+
+
+-- ============================================
+-- UC-6.1: MANAGE SPECIALTY LOOKUP (CRUD)
+-- ============================================
+
+-- INSERT specialty
+INSERT INTO specialties (specialty_name)
+VALUES ('Pediatrics');
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+-- VIEW specialties
+SELECT * FROM specialties;
+
+-- Output Example:
+-- +--------------+------------------+
+-- | specialty_id | specialty_name   |
+-- +--------------+------------------+
+-- | 1            | Cardiology       |
+-- | 2            | Dermatology      |
+-- | 3            | Neurology        |
+-- | 4            | Orthopedics      |
+-- | 5            | Pediatrics       |
+-- +--------------+------------------+
+
+
+-- UPDATE specialty
+UPDATE specialties
+SET specialty_name = 'Child Specialist'
+WHERE specialty_id = 5;
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+-- VERIFY update
+SELECT * FROM specialties WHERE specialty_id = 5;
+
+-- Output:
+-- +--------------+-------------------+
+-- | specialty_id | specialty_name    |
+-- +--------------+-------------------+
+-- | 5            | Child Specialist  |
+-- +--------------+-------------------+
+
+
+-- SAFE DELETE specialty (check FK constraint)
+DELETE FROM specialties
+WHERE specialty_id = 5
+AND (
+    SELECT COUNT(*)
+    FROM doctors
+    WHERE doctors.specialty_id = specialties.specialty_id
+) = 0;
+
+-- Output:
+-- Query OK, 1 row affected (only if not used)
+
+
+-- ============================================
+-- UC-6.3: CREATE AUDIT LOG TABLE
+-- ============================================
+
+CREATE TABLE IF NOT EXISTS audit_log (
+    audit_id INT AUTO_INCREMENT PRIMARY KEY,
+    table_name VARCHAR(50),
+    action_type VARCHAR(20),
+    record_id INT,
+    user_name VARCHAR(100),
+    action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- ============================================
+-- CREATE AUDIT INSERT TRIGGER
+-- ============================================
+
+DELIMITER $$
+
+CREATE TRIGGER audit_insert_appointments
+AFTER INSERT ON appointments
+FOR EACH ROW
+BEGIN
+    INSERT INTO audit_log
+    (table_name, action_type, record_id, user_name)
+    VALUES
+    ('appointments', 'INSERT', NEW.appointment_id, USER());
+END$$
+
+DELIMITER ;
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- ============================================
+-- CREATE AUDIT UPDATE TRIGGER
+-- ============================================
+
+DELIMITER $$
+
+CREATE TRIGGER audit_update_appointments
+AFTER UPDATE ON appointments
+FOR EACH ROW
+BEGIN
+    INSERT INTO audit_log
+    (table_name, action_type, record_id, user_name)
+    VALUES
+    ('appointments', 'UPDATE', NEW.appointment_id, USER());
+END$$
+
+DELIMITER ;
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- ============================================
+-- CREATE AUDIT DELETE TRIGGER
+-- ============================================
+
+DELIMITER $$
+
+CREATE TRIGGER audit_delete_appointments
+AFTER DELETE ON appointments
+FOR EACH ROW
+BEGIN
+    INSERT INTO audit_log
+    (table_name, action_type, record_id, user_name)
+    VALUES
+    ('appointments', 'DELETE', OLD.appointment_id, USER());
+END$$
+
+DELIMITER ;
+
+-- Output:
+-- Query OK, 0 rows affected
+
+
+-- ============================================
+-- TEST AUDIT TRIGGER
+-- ============================================
+
+UPDATE appointments
+SET status = 'COMPLETED'
+WHERE appointment_id = 1;
+
+-- Output:
+-- Query OK, 1 row affected
+
+
+-- ============================================
+-- VIEW AUDIT LOGS
+-- ============================================
+
+SELECT * FROM audit_log;
+
+-- Output Example:
+-- +----------+-------------+-------------+-----------+----------------+---------------------+
+-- | audit_id | table_name  | action_type | record_id | user_name      | action_time         |
+-- +----------+-------------+-------------+-----------+----------------+---------------------+
+-- | 1        | appointments| UPDATE      | 1         | root@localhost | 2026-02-16 16:30:00 |
+-- +----------+-------------+-------------+-----------+----------------+---------------------+
+
+
+-- ============================================
+-- FILTER AUDIT LOGS BY TABLE
+-- ============================================
+
+SELECT *
+FROM audit_log
+WHERE table_name = 'appointments';
+
+-- Output:
+-- Shows appointment-related logs
+
+
+-- ============================================
+-- FILTER AUDIT LOGS BY USER
+-- ============================================
+
+SELECT *
+FROM audit_log
+WHERE user_name = USER();
+
+-- Output:
+-- Shows current user's logs
+
+
+-- ============================================
+-- FILTER AUDIT LOGS BY DATE RANGE
+-- ============================================
+
+SELECT *
+FROM audit_log
+WHERE action_time BETWEEN '2026-02-01' AND '2026-02-28';
+
+-- Output:
+-- Shows logs in date range
+
+
+-- ============================================
+-- UC-6.2 BACKUP VALIDATION (JDBC SUPPORT)
+-- ============================================
+
+SHOW TABLES;
+
+-- Output Example:
+-- +-----------------------+
+-- | Tables_in_sqlpractice |
+-- +-----------------------+
+-- | appointments          |
+-- | patients              |
+-- | doctors               |
+-- | visits                |
+-- | prescriptions         |
+-- | bills                 |
+-- | payment_transactions  |
+-- | specialties           |
+-- | audit_log             |
+-- +-----------------------+
+
+
+DESCRIBE appointments;
+
+-- Output:
+-- Shows table schema
+
+
+SHOW CREATE TABLE appointments;
+
+-- Output:
+-- Shows full CREATE TABLE statement
+
+
+-- ============================================
+-- END OF SYSTEM ADMINISTRATION DATABASE FILE
+-- ============================================
