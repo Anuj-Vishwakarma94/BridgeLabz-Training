@@ -210,6 +210,7 @@ Learning Milestones
 
 ### **Week 8 : DBMS and JDBC**
 | Day |Date    | Topic            | Coverage                                                                                           | 
+|-----|--------|------------------|----------------------------------------------------------------------------------------------------|
 | 1   | 06-Feb | DBMS             | DBMS fundamentals including ER models, normalization, keys, constraints, and basic SQL operations. |
 | 3   | 09-Feb | JDBC             | JDBC for connecting Java applications with databases and performing CRUD operations securely.      |
 
