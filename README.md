@@ -1,6 +1,6 @@
 # BridgeLabz-Training
 ---
-A comprehensive Java programming training repository covering Core Java fundamentals, Object-Oriented Programming, DSA, Collections, IO Streams, Java 8 Concepts, Java Design and Pattern and Multi-Threading.
+A comprehensive Java programming training repository covering Core Java fundamentals, Object-Oriented Programming, DSA, Collections, IO Streams, Java 8 Concepts, Java Design and Pattern, Multi-Threading, DBMS and JDBC.
 
 
 Training Overview 
@@ -31,6 +31,9 @@ Week 6 : Java 8 Features
 
 🔹 java-design-pattern-practice
 Week 7 : Java Design and Pattern 
+
+🔹 dbms-jdbc-practice
+Week 8 : DBMS and JDBC
 
 ---
 📂 Project Structure
@@ -120,7 +123,18 @@ BridgeLabz-Training/
 |   |           └──📁 com/
 |   |               └── 📁 smartuniversitylibrarymanagementsystem/    #Smart University Library Management System designed using GoF patterns (Singleton, Factory, Observer, Builder).
 |   |               └── 📁 multithreading/                            #Multithreading concepts including thread creation, lifecycle, synchronization, and thread safety in Java.
-|   |           
+|   |
+│── 📁 dbms-jdbc-practice/
+|   └── 📁 gcr-codebase/
+|   |   └──📁 DbmsJdbcConcepts/
+|   |       └──📁 src/
+|   |           └──📁 main/
+|   |               └──📁 java/com/jdbc                              #JDBC for connecting Java applications with databases and performing CRUD operations securely.
+|   |               └──📁 resources/com/sql                          #DBMS fundamentals including ER models, normalization, keys, constraints, and basic SQL operations.
+|   |
+|   |
+|   └──📁scenario-based-codebase/
+|    
 └── README.md
 
 ```
@@ -194,6 +208,10 @@ Learning Milestones
 |  1  | 31-Jan | Smart University Library Management System (Design & Patterns) | Used For building scalable, maintainable, and loosely coupled applications. |
 |  2  | 02-Feb | Multi-Threading                                                | Thread creation, lifecycle, synchronization, and thread safety in Java.     |
 
+### **Week 8 : DBMS and JDBC**
+| Day |Date    | Topic            | Coverage                                                                                           | 
+| 1   | 06-Feb | DBMS             | DBMS fundamentals including ER models, normalization, keys, constraints, and basic SQL operations. |
+| 3   | 09-Feb | JDBC             | JDBC for connecting Java applications with databases and performing CRUD operations securely.      |
 
 ---
 
@@ -259,6 +277,12 @@ Key Concepts Covered
 ### Java Design and Pattern(java-design-pattern-practice)
 - Java Design & pattern: Java design and design patterns for building scalable, maintainable, and loosely coupled applications.
 - Multi-Threading: Multithreading concepts including thread creation, lifecycle, synchronization, and thread safety in Java.
+
+---
+
+### DBMS and JDBC(dbms-jdbc-practice)
+- DBMS fundamentals including ER models, normalization, keys, constraints, and basic SQL operations.
+- JDBC for connecting Java applications with databases and performing CRUD operations securely.
 
 ---
 
@@ -335,6 +359,12 @@ java8-programming-practice
 java-design-pattern-practice
 - 📌[Smart University Library Management System](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternConcepts/src/com/smartuniversitylibrarymanagementsystem)
 - 📌[MultiThreading](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternConcepts/src/com/multithreading)
+
+---
+
+dbms-jdbc-practice
+- 📌[MySql](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DbmsJdbcConcepts/src/main/resources/com/sql)
+- 📌[JDBC](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DbmsJdbcConcepts/src/main/java/com/jdbc)
 
 ---
 
