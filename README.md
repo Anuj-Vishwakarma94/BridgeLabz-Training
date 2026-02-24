@@ -42,3 +42,20 @@ BridgeLabz-Training/
 🔗 **Code Link:**      
 👉[MySql](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DbmsJdbcConcepts/src/main/resources/com/sql)
 
+### 🗓 Day 2 – JDBC  
+**Date: 09-Feb-2026**
+
+- Studied JDBC architecture and workflow.
+- Understood role of Driver, Connection, Statement, and ResultSet.
+- Learned steps to connect Java application with database.
+- Performed CRUD operations using:
+  - Statement
+  - PreparedStatement
+- Executed SQL queries from Java.
+- Handled SQL exceptions properly.
+- Practiced transaction management (commit, rollback).
+- Understood importance of PreparedStatement for security (SQL Injection prevention).
+- Closed database resources properly.
+- All work committed and pushed.
+🔗 **Code Link:**      
+👉[JDBC](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DbmsJdbcConcepts/src/main/java/com/jdbc)
