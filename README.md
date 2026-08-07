@@ -35,6 +35,9 @@ Week 7 : Java Design and Pattern
 🔹 dbms-jdbc-practice
 Week 8 : DBMS and JDBC
 
+🔹refresher-training
+Refresher Training covering **DBMS, JDBC, Java Servlets, Apache Tomcat, and Spring Core through hands-on backend projects.
+
 ---
 📂 Project Structure
 ```
@@ -214,6 +217,15 @@ Learning Milestones
 | 1   | 06-Feb | DBMS             | DBMS fundamentals including ER models, normalization, keys, constraints, and basic SQL operations. |
 | 3   | 09-Feb | JDBC             | JDBC for connecting Java applications with databases and performing CRUD operations securely.      |
 
+| Day | Date | Topics | Coverage |
+|------|------|--------|----------|
+| **1** | 31 Jul | Database Types, Relational & Non-Relational Databases, DDL, DML | Set up MySQL and designed the initial ER Diagram for the Health Clinic Application. |
+| **2** | 3 Aug | ER Diagram, Normalization, Indexing | Finalized the ER Diagram, applied Normalization, and explored Indexing with query optimization. |
+| **3** | 4 Aug | SQL Joins, Stored Procedures, Triggers | Solved SQL JOIN problems and implemented Stored Procedures, Triggers, and Transactions. |
+| **4** | 5 Aug | JDBC with MySQL | Built a Maven-based JDBC project, connected Java with MySQL, and developed a menu-driven Health Clinic application. |
+| **5** | 6 Aug | Servlets, Apache Tomcat, Spring Core | Learned Java Servlets, configured Tomcat, and explored Spring Core using XML, Annotation, and Java-based configuration. 
+
+
 ---
 
 Key Concepts Covered
@@ -366,6 +378,17 @@ java-design-pattern-practice
 dbms-jdbc-practice
 - 📌[MySql](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DbmsJdbcConcepts/src/main/resources/com/sql)
 - 📌[JDBC](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DbmsJdbcConcepts/src/main/java/com/jdbc)
+
+---
+
+Refreshers-training
+- 📌 [Day 1](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-1)
+- 📌 [Day 2](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-2)
+- 📌 [Day 3](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-3)
+- 📌 [Day 4](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-4)
+- 📌 [Day 5](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-5)
+
+---
 
 ---
 
