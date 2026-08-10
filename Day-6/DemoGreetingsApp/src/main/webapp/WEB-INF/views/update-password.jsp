@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Update Password</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -54,6 +54,12 @@
 
         input:focus { border-color: #fff; }
 
+        .error {
+            color: #f87171;
+            font-size: 0.85rem;
+            margin-bottom: 14px;
+        }
+
         button {
             width: 100%;
             padding: 11px;
@@ -76,30 +82,30 @@
             color: #666;
         }
 
-        .footer a { color: #fff; }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Register</h2>
+        <h2>Update Password</h2>
 
-        <form action="/register" method="post">
+        <% if (request.getAttribute("error") != null) { %>
+        <p class="error">${error}</p>
+        <% } %>
+
+        <form action="/update-password" method="post">
             <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <label for="newPassword">New Password</label>
+                <input type="password" id="newPassword" name="newPassword"
+                       placeholder="Enter new password" required>
             </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="you@example.com" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="••••••••" required>
-            </div>
-            <button type="submit">Create Account</button>
+            <button type="submit">Update Password</button>
         </form>
 
-        <p class="footer">Already have an account? <a href="/login">Login</a></p>
+        <p class="footer"><a href="/logout">← Back</a></p>
     </div>
 </body>
 </html>

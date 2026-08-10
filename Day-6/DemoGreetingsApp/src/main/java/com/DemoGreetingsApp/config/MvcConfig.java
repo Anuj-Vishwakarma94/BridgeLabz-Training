@@ -15,7 +15,7 @@ public class MvcConfig {
         resolver.setPrefix("/WEB-INF/views/");
         resolver.setSuffix(".jsp");
 
-        resolver.setViewNames("login", "register");
+        resolver.setViewNames("login", "register", "update-password");
 
         resolver.setOrder(1);
 

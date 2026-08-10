@@ -14,6 +14,7 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserRepository userRepository;
 
+    // CREATE
     @Override
     public User registerUser(User user) {
 
@@ -24,6 +25,7 @@ public class UserServiceImpl implements UserService {
         return userRepository.save(user);
     }
 
+    // READ
     @Override
     public User loginUser(String email, String password) {
 
@@ -41,4 +43,26 @@ public class UserServiceImpl implements UserService {
         return null;
     }
 
-}
+    // UPDATE
+    @Override
+    public boolean updatePassword(Long userId, String newPassword) {
+
+        Optional<User> optionalUser = userRepository.findById(userId);
+
+        if (optionalUser.isPresent()) {
+            User user = optionalUser.get();
+            user.setPassword(newPassword);
+            userRepository.save(user);
+            return true;
+        }
+
+        return false;
+    }
+
+    // DELETE
+    @Override
+    public void deleteUser(Long userId) {
+        userRepository.deleteById(userId);
+    }
+
+}

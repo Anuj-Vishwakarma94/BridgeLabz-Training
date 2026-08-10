@@ -3,303 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Greetings App — Welcome</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Demo Greetings App</title>
     <style>
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-        :root {
-            --accent: #a78bfa;
-            --accent2: #6366f1;
-            --green: #34d399;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: 'Inter', sans-serif;
-            min-height: 100vh;
-            background: #0a0a0f;
-            color: #e2e8f0;
-            overflow-x: hidden;
-        }
-
-        /* Animated orbs background */
-        .bg-orbs {
-            position: fixed;
-            inset: 0;
-            z-index: 0;
-            overflow: hidden;
-            pointer-events: none;
-        }
-        .orb {
-            position: absolute;
-            border-radius: 50%;
-            filter: blur(80px);
-            opacity: 0.25;
-            animation: floatOrb 12s ease-in-out infinite;
-        }
-        .orb-1 { width: 500px; height: 500px; background: #6366f1; top: -150px; left: -100px; animation-delay: 0s; }
-        .orb-2 { width: 400px; height: 400px; background: #a78bfa; bottom: -100px; right: -80px; animation-delay: 4s; }
-        .orb-3 { width: 300px; height: 300px; background: #34d399; top: 40%; left: 50%; transform: translate(-50%, -50%); animation-delay: 8s; }
-
-        @keyframes floatOrb {
-            0%, 100% { transform: translateY(0) scale(1); }
-            50% { transform: translateY(-30px) scale(1.05); }
-        }
-
-        /* Navbar */
-        nav {
-            position: relative;
-            z-index: 10;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 20px 60px;
-            border-bottom: 1px solid rgba(255,255,255,0.06);
-            background: rgba(10,10,15,0.6);
-            backdrop-filter: blur(10px);
-        }
-
-        .nav-logo {
-            font-size: 1.2rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, var(--accent), var(--green));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: -0.02em;
-        }
-
-        .nav-links { display: flex; gap: 12px; }
-
-        .btn-outline {
-            padding: 8px 22px;
-            border: 1px solid rgba(255,255,255,0.2);
-            border-radius: 8px;
-            color: rgba(255,255,255,0.8);
-            text-decoration: none;
-            font-size: 0.875rem;
-            font-weight: 500;
-            transition: all 0.2s;
-            background: transparent;
-        }
-        .btn-outline:hover {
-            border-color: var(--accent);
-            color: var(--accent);
-            background: rgba(167,139,250,0.08);
-        }
-
-        .btn-filled {
-            padding: 8px 22px;
-            border: none;
-            border-radius: 8px;
+            background: #000;
             color: #fff;
-            text-decoration: none;
-            font-size: 0.875rem;
-            font-weight: 600;
-            background: linear-gradient(135deg, var(--accent), var(--accent2));
-            transition: all 0.2s;
-            box-shadow: 0 4px 14px rgba(99,102,241,0.35);
-        }
-        .btn-filled:hover {
-            opacity: 0.9;
-            transform: translateY(-1px);
-            box-shadow: 0 8px 20px rgba(99,102,241,0.45);
-        }
-
-        /* Hero */
-        .hero {
-            position: relative;
-            z-index: 1;
+            font-family: sans-serif;
+            min-height: 100vh;
             display: flex;
-            flex-direction: column;
             align-items: center;
-            text-align: center;
-            padding: 100px 20px 80px;
-        }
-
-        .hero-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(167,139,250,0.12);
-            border: 1px solid rgba(167,139,250,0.25);
-            border-radius: 100px;
-            padding: 6px 16px;
-            font-size: 0.78rem;
-            font-weight: 500;
-            color: var(--accent);
-            margin-bottom: 28px;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-        }
-
-        .hero h1 {
-            font-size: clamp(2.4rem, 6vw, 4.2rem);
-            font-weight: 800;
-            line-height: 1.1;
-            letter-spacing: -0.03em;
-            background: linear-gradient(135deg, #ffffff 30%, rgba(255,255,255,0.55));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 20px;
-            max-width: 700px;
-        }
-
-        .hero p {
-            font-size: 1.1rem;
-            color: rgba(255,255,255,0.5);
-            max-width: 500px;
-            line-height: 1.7;
-            margin-bottom: 40px;
-        }
-
-        .hero-cta {
-            display: flex;
-            gap: 14px;
-            flex-wrap: wrap;
             justify-content: center;
         }
 
-        .btn-hero-primary {
-            padding: 14px 32px;
-            background: linear-gradient(135deg, var(--accent), var(--accent2));
-            border: none;
-            border-radius: 12px;
-            color: #fff;
-            font-size: 1rem;
-            font-weight: 600;
-            font-family: 'Inter', sans-serif;
-            text-decoration: none;
-            cursor: pointer;
-            transition: all 0.2s;
-            box-shadow: 0 8px 24px rgba(99,102,241,0.4);
-        }
-        .btn-hero-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 14px 32px rgba(99,102,241,0.5);
-        }
+        .container { text-align: center; }
 
-        .btn-hero-secondary {
-            padding: 14px 32px;
-            background: rgba(255,255,255,0.06);
-            border: 1px solid rgba(255,255,255,0.12);
-            border-radius: 12px;
-            color: rgba(255,255,255,0.8);
-            font-size: 1rem;
-            font-weight: 500;
-            text-decoration: none;
-            transition: all 0.2s;
-        }
-        .btn-hero-secondary:hover {
-            background: rgba(255,255,255,0.1);
-            border-color: rgba(255,255,255,0.2);
-            color: #fff;
-        }
-
-        /* Feature cards */
-        .features {
-            position: relative;
-            z-index: 1;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 20px;
-            max-width: 860px;
-            margin: 0 auto;
-            padding: 0 24px 80px;
-        }
-
-        .feature-card {
-            background: rgba(255,255,255,0.04);
-            border: 1px solid rgba(255,255,255,0.08);
-            border-radius: 16px;
-            padding: 28px 26px;
-            transition: all 0.25s;
-        }
-        .feature-card:hover {
-            background: rgba(255,255,255,0.07);
-            border-color: rgba(167,139,250,0.25);
-            transform: translateY(-4px);
-            box-shadow: 0 16px 40px rgba(0,0,0,0.3);
-        }
-
-        .feature-icon {
+        h1 {
             font-size: 2rem;
-            margin-bottom: 14px;
-        }
-
-        .feature-card h3 {
-            font-size: 1rem;
             font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 8px;
+            margin-bottom: 32px;
         }
 
-        .feature-card p {
-            font-size: 0.85rem;
-            color: rgba(255,255,255,0.45);
-            line-height: 1.6;
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: center;
         }
 
-        /* Footer */
-        footer {
-            position: relative;
-            z-index: 1;
-            text-align: center;
-            padding: 24px;
-            border-top: 1px solid rgba(255,255,255,0.06);
-            color: rgba(255,255,255,0.25);
-            font-size: 0.8rem;
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 28px;
+            border: 1px solid #fff;
+            border-radius: 6px;
+            width: 160px;
+            transition: background 0.2s, color 0.2s;
         }
+
+        a:hover { background: #fff; color: #000; }
     </style>
 </head>
 <body>
-
-<div class="bg-orbs">
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
-</div>
-
-<nav>
-    <div class="nav-logo">✦ GreetingsApp</div>
-    <div class="nav-links">
-        <a href="/login" class="btn-outline">Sign In</a>
-        <a href="/register" class="btn-filled">Get Started</a>
+    <div class="container">
+        <h1>Demo Greetings App</h1>
+        <div class="links">
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+        </div>
     </div>
-</nav>
-
-<section class="hero">
-    <div class="hero-badge">✨ BridgeLabz Training — Day 6</div>
-    <h1>Greet the World,<br>Your Way</h1>
-    <p>A modern Spring Boot application demonstrating MVC architecture, JPA persistence, and beautiful user experiences.</p>
-    <div class="hero-cta">
-        <a href="/register" class="btn-hero-primary">Create Account →</a>
-        <a href="/login" class="btn-hero-secondary">Sign In</a>
-    </div>
-</section>
-
-<section class="features">
-    <div class="feature-card">
-        <div class="feature-icon">🔐</div>
-        <h3>Secure Auth</h3>
-        <p>User registration and login with secure credential handling and session management.</p>
-    </div>
-    <div class="feature-card">
-        <div class="feature-icon">🗄️</div>
-        <h3>MySQL Backed</h3>
-        <p>Persistent data storage powered by Spring Data JPA and MySQL — enterprise ready.</p>
-    </div>
-    <div class="feature-card">
-        <div class="feature-icon">⚡</div>
-        <h3>Spring Boot</h3>
-        <p>Built on Spring Boot 3.3 with hot-reload dev tools for rapid development cycles.</p>
-    </div>
-</section>
-
-<footer>
-    &copy; 2026 DemoGreetingsApp &mdash; Built by Anuj Vishwakarma
-</footer>
-
 </body>
 </html>
