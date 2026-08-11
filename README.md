@@ -20,6 +20,7 @@ Throughout this training, I explored core backend technologies by learning conce
 | **4** | 5 Aug  | JDBC with MySQL                                                 | Built a Maven-based JDBC project, connected Java with MySQL, and developed a menu-driven Health Clinic application.     |
 | **5** | 6 Aug  | Servlets, Apache Tomcat, Spring Core                            | Learned Java Servlets, configured Tomcat, and explored Spring Core using XML, Annotation, and Java-based configuration. |
 | **6** | 7 Aug  | Spring MVC Fundamentals                                         | Explored Spring MVC concepts and developed a **Demo Greetings Application** using Spring MVC.                           |
+| **7** | 10 Aug  | RESTful API, H2 Basics                                          | Completed the **Greetings Application**, explored RESTful APIs and H2 Database basics, and started the **Contacts Application**. |
 
 ---
 
@@ -73,7 +74,17 @@ Throughout this training, I explored core backend technologies by learning conce
 - Model & View
 - View Resolver
 - Request Mapping
-- Basic Spring MVC Application Development
+- Spring MVC Application Development
+
+### 🔗 RESTful API & H2
+
+- REST Architecture
+- RESTful APIs
+- HTTP Methods
+- API Request & Response Handling
+- H2 Database Basics
+- In-memory Database
+- Spring-based REST API Development
 
 ---
 
@@ -121,14 +132,24 @@ A basic Spring MVC application developed to understand the fundamentals of **Spr
 
 ---
 
+## 📇 Contacts Application
+
+Started developing a **Contacts Application** while exploring **RESTful APIs and H2 Database** concepts.
+
+The application focuses on understanding how a Spring-based backend can expose APIs and work with a database for managing contact information.
+
+---
+
 ## 🛠️ Tech Stack
 
 - Java 17
 - MySQL 8
+- H2 Database
 - JDBC
 - Apache Tomcat
 - Spring Core
 - Spring MVC
+- RESTful APIs
 - Maven
 - Eclipse IDE / STS
 - Git & GitHub
@@ -143,6 +164,7 @@ A basic Spring MVC application developed to understand the fundamentals of **Spr
 - 📌 [Day 4](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-4)
 - 📌 [Day 5](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-5)
 - 📌 [Day 6](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-6)
+- 📌 [Day 7](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-7)
 
 ---
 
