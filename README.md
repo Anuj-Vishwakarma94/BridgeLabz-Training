@@ -12,17 +12,18 @@ Throughout this training, I explored core backend technologies by learning conce
 
 ## 📅 Learning Milestones
 
-| Day   | Date   | Topics                                                                         | Coverage                                                                                                                         |
-| ----- | ------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| **1** | 31 Jul | Database Types, Relational & Non-Relational Databases, DDL, DML                | Set up MySQL and designed the initial ER Diagram for the Health Clinic Application.                                              |
-| **2** | 3 Aug  | ER Diagram, Normalization, Indexing                                            | Finalized the ER Diagram, applied Normalization, and explored Indexing with query optimization.                                  |
-| **3** | 4 Aug  | SQL Joins, Stored Procedures, Triggers                                         | Solved SQL JOIN problems and implemented Stored Procedures, Triggers, and Transactions.                                          |
-| **4** | 5 Aug  | JDBC with MySQL                                                                | Built a Maven-based JDBC project, connected Java with MySQL, and developed a menu-driven Health Clinic application.              |
-| **5** | 6 Aug  | Servlets, Apache Tomcat, Spring Core                                           | Learned Java Servlets, configured Tomcat, and explored Spring Core using XML, Annotation, and Java-based configuration.          |
-| **6** | 7 Aug  | Spring MVC Fundamentals                                                        | Explored Spring MVC concepts and developed a **Demo Greetings Application** using Spring MVC.                                    |
-| **7** | 10 Aug | RESTful API, H2 Basics                                                         | Completed the **Greetings Application**, explored RESTful APIs and H2 Database basics, and started the **Contacts Application**. |
-| **8** | 11 Aug | API Testing, Mockito, Postman & Swagger UI                                     | Updated the **Contacts Application** by writing Mockito test cases for the service layer.                                        |
-| **9** | 12 Aug | Spring Boot, Auto-Configuration, Starters, Spring Controller & REST API Basics | Updated the **Contacts Application** with search by name and favourite contact functionality.                                    |
+| Day    | Date   | Topics                                                                         | Coverage                                                                                                                         |
+| ------ | ------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| **1**  | 31 Jul | Database Types, Relational & Non-Relational Databases, DDL, DML                | Set up MySQL and designed the initial ER Diagram for the Health Clinic Application.                                              |
+| **2**  | 3 Aug  | ER Diagram, Normalization, Indexing                                            | Finalized the ER Diagram, applied Normalization, and explored Indexing with query optimization.                                  |
+| **3**  | 4 Aug  | SQL Joins, Stored Procedures, Triggers                                         | Solved SQL JOIN problems and implemented Stored Procedures, Triggers, and Transactions.                                          |
+| **4**  | 5 Aug  | JDBC with MySQL                                                                | Built a Maven-based JDBC project, connected Java with MySQL, and developed a menu-driven Health Clinic application.              |
+| **5**  | 6 Aug  | Servlets, Apache Tomcat, Spring Core                                           | Learned Java Servlets, configured Tomcat, and explored Spring Core using XML, Annotation, and Java-based configuration.          |
+| **6**  | 7 Aug  | Spring MVC Fundamentals                                                        | Explored Spring MVC concepts and developed a **Demo Greetings Application** using Spring MVC.                                    |
+| **7**  | 10 Aug | RESTful API, H2 Basics                                                         | Completed the **Greetings Application**, explored RESTful APIs and H2 Database basics, and started the **Contacts Application**. |
+| **8**  | 11 Aug | API Testing, Mockito, Postman & Swagger UI                                     | Updated the **Contacts Application** by writing Mockito test cases for the service layer.                                        |
+| **9**  | 12 Aug | Spring Boot, Auto-Configuration, Starters, Spring Controller & REST API Basics | Updated the **Contacts Application** with search by name and favourite contact functionality.                                    |
+| **10** | 13 Aug | Bean Injection in Spring Boot, H2 Implementation                               | Completed the **Contacts Application** and started the **Employee Payroll Application**.                                         |
 
 ---
 
@@ -105,6 +106,8 @@ Throughout this training, I explored core backend technologies by learning conce
 * Stereotype Annotations
 * Spring Controller
 * REST API Basics in Spring Boot
+* Bean Injection
+* H2 Database Implementation
 
 ---
 
@@ -164,6 +167,15 @@ The application focuses on understanding how a Spring-based backend can expose A
 * Favourite Contact Functionality
 * Service Layer Testing using Mockito
 * REST API Development
+* H2 Database Implementation
+
+---
+
+## 👨‍💼 Employee Payroll Application
+
+Started developing an **Employee Payroll Application** after completing the Contacts Application.
+
+The project focuses on applying **Spring Boot and H2 Database** concepts to a new backend application.
 
 ---
 
@@ -195,6 +207,7 @@ The application focuses on understanding how a Spring-based backend can expose A
 * 📌 [Day 7](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-7)
 * 📌 [Day 8](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-8)
 * 📌 [Day 9](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-9)
+* 📌 [Day 10](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-10)
 
 ---
 
