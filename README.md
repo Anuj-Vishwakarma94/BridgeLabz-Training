@@ -163,7 +163,10 @@ BridgeLabz-Training/
 | **5** | 6 Aug  | Servlets, Apache Tomcat, Spring Core                            | Learned Java Servlets, configured Tomcat, and explored Spring Core using XML, Annotation, and Java-based configuration.          |
 | **6** | 7 Aug  | Spring MVC Fundamentals                                         | Explored Spring MVC concepts and developed a **Demo Greetings Application** using Spring MVC.                                    |
 | **7** | 10 Aug | RESTful API, H2 Basics                                          | Completed the **Greetings Application**, explored RESTful APIs and H2 Database basics, and started the **Contacts Application**. |
-
+| **8** | 11 Aug | API testing, mocking using Postman app and Swagger ui | **1.** Updated the Contacts App by writing the mockito test cases on the service layer. |
+| **9** | 12 Aug | Spring Boot, auto-configuration, starters, Spring Controller and REST API basics | **1.** Updated the Contacts App with search by name and favourite contact functionality |
+| **10** | 13 Aug | Bean injection in Spring Boot, H2 Implementation | **1.** Completed Contacts App **2.** Started Employee Payroll App |
+| **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC | **1.** Updated Employee Payroll App & migrated to Spring Data JPA |
 ---
 
 # 📖 Key Concepts Covered
@@ -313,6 +316,8 @@ BridgeLabz-Training/
 * 📌 [Day 7](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-7)
 * 📌 [Day 8](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-8)
 * 📌 [Day 9](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-9)
+* 📌 [Day 10](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-10)
+* 📌 [Day 11](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-11)
 
 ---
 
