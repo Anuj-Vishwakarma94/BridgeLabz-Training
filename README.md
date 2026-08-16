@@ -312,6 +312,7 @@ BridgeLabz-Training/
 * 📌 [Day 6](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-6)
 * 📌 [Day 7](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-7)
 * 📌 [Day 8](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-8)
+* 📌 [Day 9](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-9)
 
 ---
 
