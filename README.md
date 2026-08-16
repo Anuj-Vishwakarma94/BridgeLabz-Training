@@ -24,6 +24,7 @@ Throughout this training, I explored core backend technologies by learning conce
 | **8**  | 11 Aug | API Testing, Mockito, Postman & Swagger UI                                     | Updated the **Contacts Application** by writing Mockito test cases for the service layer.                                        |
 | **9**  | 12 Aug | Spring Boot, Auto-Configuration, Starters, Spring Controller & REST API Basics | Updated the **Contacts Application** with search by name and favourite contact functionality.                                    |
 | **10** | 13 Aug | Bean Injection in Spring Boot, H2 Implementation                               | Completed the **Contacts Application** and started the **Employee Payroll Application**.                                         |
+| **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC                                      | Updated the **Employee Payroll Application** and migrated it to **Spring Data JPA**.                                             |
 
 ---
 
@@ -108,6 +109,9 @@ Throughout this training, I explored core backend technologies by learning conce
 * REST API Basics in Spring Boot
 * Bean Injection
 * H2 Database Implementation
+* Spring Services
+* Spring Data JPA
+* Spring JDBC
 
 ---
 
@@ -175,7 +179,7 @@ The application focuses on understanding how a Spring-based backend can expose A
 
 Started developing an **Employee Payroll Application** after completing the Contacts Application.
 
-The project focuses on applying **Spring Boot and H2 Database** concepts to a new backend application.
+The project focuses on applying **Spring Boot, Spring Services, Spring Data JPA, Spring JDBC, and H2 Database** concepts to a new backend application.
 
 ---
 
@@ -189,6 +193,8 @@ The project focuses on applying **Spring Boot and H2 Database** concepts to a ne
 * Spring Core
 * Spring MVC
 * Spring Boot
+* Spring Data JPA
+* Spring JDBC
 * RESTful APIs
 * Maven
 * Eclipse IDE / STS
@@ -208,6 +214,7 @@ The project focuses on applying **Spring Boot and H2 Database** concepts to a ne
 * 📌 [Day 8](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-8)
 * 📌 [Day 9](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-9)
 * 📌 [Day 10](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-10)
+* 📌 [Day 11](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-11)
 
 ---
 
