@@ -129,4 +129,16 @@ public class EmployeeServiceImpl implements EmployeeService {
         return employeeRepository.findHighEarners(minSalary, pageRequest)
                 .map(employeeMapper::toResponseDTO);
     }
+
+    // Get all employees sorted by field (e.g. salary) and direction (asc/desc)
+    @Override
+    @Transactional(readOnly = true)
+    public List<EmployeeResponseDTO> getEmployeesSorted(String sortBy, String sortDir) {
+        String property = (sortBy == null || sortBy.isBlank()) ? "salary" : sortBy;
+        Sort.Direction direction = "desc".equalsIgnoreCase(sortDir) ? Sort.Direction.DESC : Sort.Direction.ASC;
+        return employeeRepository.findAll(Sort.by(direction, property))
+                .stream()
+                .map(employeeMapper::toResponseDTO)
+                .toList();
+    }
 }

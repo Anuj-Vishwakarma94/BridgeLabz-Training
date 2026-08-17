@@ -105,4 +105,12 @@ public class EmployeeController {
             @RequestParam(defaultValue = "5") int size) {
         return ResponseEntity.ok(employeeService.getHighEarners(minSalary, page, size));
     }
+
+    // Get employees sorted by field (e.g. GET /api/employees/sorted?sortBy=salary&sortDir=asc)
+    @GetMapping("/sorted")
+    public ResponseEntity<List<EmployeeResponseDTO>> getEmployeesSorted(
+            @RequestParam(defaultValue = "salary") String sortBy,
+            @RequestParam(defaultValue = "asc") String sortDir) {
+        return ResponseEntity.ok(employeeService.getEmployeesSorted(sortBy, sortDir));
+    }
 }

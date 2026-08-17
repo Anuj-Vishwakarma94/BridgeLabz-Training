@@ -38,4 +38,7 @@ public interface EmployeeService {
 
     /** Returns paginated employees earning above the given salary threshold. */
     Page<EmployeeResponseDTO> getHighEarners(BigDecimal minSalary, int page, int size);
+
+    /** Returns all employees sorted by specified field (e.g., salary, name) and direction (asc/desc). */
+    List<EmployeeResponseDTO> getEmployeesSorted(String sortBy, String sortDir);
 }
