@@ -167,6 +167,7 @@ BridgeLabz-Training/
 | **9** | 12 Aug | Spring Boot, auto-configuration, starters, Spring Controller and REST API basics | **1.** Updated the Contacts App with search by name and favourite contact functionality |
 | **10** | 13 Aug | Bean injection in Spring Boot, H2 Implementation | **1.** Completed Contacts App **2.** Started Employee Payroll App |
 | **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC | **1.** Updated Employee Payroll App & migrated to Spring Data JPA |
+| **12** | 17 Aug | Spring Scopes, Logging, Maven & Postman | Updated the **Employee Payroll Application** by adding simple loggers and OpenAPI documentation. |
 ---
 
 # 📖 Key Concepts Covered
@@ -318,6 +319,7 @@ BridgeLabz-Training/
 * 📌 [Day 9](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-9)
 * 📌 [Day 10](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-10)
 * 📌 [Day 11](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-11)
+* 📌 [Day 12](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-12)
 
 ---
 
