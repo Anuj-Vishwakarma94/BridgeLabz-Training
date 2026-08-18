@@ -25,6 +25,7 @@ Throughout this training, I explored core backend technologies by learning conce
 | **9**  | 12 Aug | Spring Boot, Auto-Configuration, Starters, Spring Controller & REST API Basics | Updated the **Contacts Application** with search by name and favourite contact functionality.                                    |
 | **10** | 13 Aug | Bean Injection in Spring Boot, H2 Implementation                               | Completed the **Contacts Application** and started the **Employee Payroll Application**.                                         |
 | **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC                                      | Updated the **Employee Payroll Application** and migrated it to **Spring Data JPA**.                                             |
+| **12** | 17 Aug | Spring Scopes, Logging, Maven & Postman                                        | Updated the **Employee Payroll Application** by adding simple loggers and OpenAPI documentation.                                |
 
 ---
 
@@ -112,6 +113,10 @@ Throughout this training, I explored core backend technologies by learning conce
 * Spring Services
 * Spring Data JPA
 * Spring JDBC
+* Spring Scopes
+* Logging
+* Maven
+* OpenAPI Documentation
 
 ---
 
@@ -215,6 +220,7 @@ The project focuses on applying **Spring Boot, Spring Services, Spring Data JPA,
 * 📌 [Day 9](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-9)
 * 📌 [Day 10](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-10)
 * 📌 [Day 11](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-11)
+* 📌 [Day 12](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-12)
 
 ---
 
