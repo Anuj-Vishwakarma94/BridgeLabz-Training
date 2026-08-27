@@ -26,6 +26,12 @@ Throughout this training, I explored core backend technologies by learning conce
 | **10** | 13 Aug | Bean Injection in Spring Boot, H2 Implementation                               | Completed the **Contacts Application** and started the **Employee Payroll Application**.                                         |
 | **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC                                      | Updated the **Employee Payroll Application** and migrated it to **Spring Data JPA**.                                             |
 | **12** | 17 Aug | Spring Scopes, Logging, Maven & Postman                                        | Updated the **Employee Payroll Application** by adding simple loggers and OpenAPI documentation.                                |
+| **13** | 18 Aug | Spring Security & JWT Authentication                                           | Added **Fundoo Notes App** with basic Spring Security.                                                                           |
+| **14** | 19 Aug | Authorization & JPA for Notes Management                                      | Updated **Fundoo Notes App** with basic User Notes CRUD.                                                                         |
+| **15** | 20 Aug | Organisation Modules: Pin/Archive/Trash, Search & Tags                        | Updated **Fundoo Notes App** with basic User Notes patch operations.                                                             |
+| **16** | 21 Aug | JMS (Asynchronous Messaging) & Redis Caching                                   | Updated **Fundoo Notes App** with basic Redis and JMS implementations for learning.                                             |
+| **17** | 24 Aug | Rabbit MQ & Introduction to Spring Batch                                       | Updated the **Fundoo Notes App** with RabbitMQ implementation for email reminders and Excel export functionality.                |
+| **18** | 25 Aug | Global Exception Handling & Logging                                            | Updated the **Fundoo Notes App** with Global Exception Handling and an aspect to calculate request method timings.               |
 
 ---
 
@@ -118,6 +124,28 @@ Throughout this training, I explored core backend technologies by learning conce
 * Maven
 * OpenAPI Documentation
 
+### 🔐 Spring Security
+
+* Spring Security Fundamentals
+* Authentication
+* Authorization
+* JWT (JSON Web Token)
+* Token-based Authentication
+
+### 📨 Messaging & Caching
+
+* JMS (Asynchronous Messaging)
+* Redis Caching
+* RabbitMQ
+* Spring Batch Basics
+
+### 🛡️ Exception Handling & Logging
+
+* Global Exception Handling
+* Aspect-Oriented Programming
+* Request Method Timing
+* Logging
+
 ---
 
 ## 🏥 Project
@@ -188,6 +216,31 @@ The project focuses on applying **Spring Boot, Spring Services, Spring Data JPA,
 
 ---
 
+## 📝 Fundoo Notes Application
+
+Developed and enhanced the **Fundoo Notes Application** while exploring Spring Security, JWT authentication, JPA, messaging, caching, and backend architecture concepts.
+
+**Features & Concepts Added**
+
+* Spring Security
+* JWT Authentication
+* Authorization
+* User Notes CRUD Operations
+* Notes Patch Operations
+* Pin, Archive & Trash Modules
+* Search & Tags
+* Redis Caching
+* JMS Messaging
+* RabbitMQ
+* Email Reminders
+* Excel Export
+* Global Exception Handling
+* Aspect-Oriented Programming
+* Request Method Timing
+* Logging
+
+---
+
 ## 🛠️ Tech Stack
 
 * Java 17
@@ -200,7 +253,16 @@ The project focuses on applying **Spring Boot, Spring Services, Spring Data JPA,
 * Spring Boot
 * Spring Data JPA
 * Spring JDBC
+* Spring Security
+* JWT
 * RESTful APIs
+* JMS
+* Redis
+* RabbitMQ
+* Spring Batch
+* Mockito
+* Postman
+* OpenAPI / Swagger
 * Maven
 * Eclipse IDE / STS
 * Git & GitHub
@@ -221,6 +283,12 @@ The project focuses on applying **Spring Boot, Spring Services, Spring Data JPA,
 * 📌 [Day 10](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-10)
 * 📌 [Day 11](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-11)
 * 📌 [Day 12](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-12)
+* 📌 [Day 13](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-13)
+* 📌 [Day 14](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-14)
+* 📌 [Day 15](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-15)
+* 📌 [Day 16](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-16)
+* 📌 [Day 17](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-17)
+* 📌 [Day 18](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-18)
 
 ---
 
