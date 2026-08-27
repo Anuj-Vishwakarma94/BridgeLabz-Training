@@ -170,7 +170,7 @@ BridgeLabz-Training/
 | **12** | 17 Aug | Spring Scopes, Logging, Maven & Postman | Updated the **Employee Payroll Application** by adding simple loggers and OpenAPI documentation. |
 | **10** | 13 Aug | Bean injection in Spring Boot, H2 Implementation               | Completed Contacts App **2.** Started Employee Payroll App |
 | **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC                      | Updated Employee Payroll App & migrated to Spring Data JPA |
-| **12** | 17 Aug | Spring Scopes, Logging, Maven & Postman                         | Updated the **Employee Payroll Application** by adding simple loggers and OpenAPI documentation. |
+| **12** | 17 Aug | Spring Scopes, Logging, Maven & Postman                        | Updated the **Employee Payroll Application** by adding simple loggers and OpenAPI documentation. |
 | **13** | 18 Aug | Spring Security & JWT Authentication                            | Added Fundoo Notes App with basic spring security |
 | **14** | 19 Aug | Authorization & JPA for Notes Management                        | Updated Fundoo Notes App with basic User Notes crud |
 | **15** | 20 Aug | Organisation Modules: Pin/Archive/Trash, Search & Tags          | Updated Fundoo Notes App with basic User Notes patch operations |
