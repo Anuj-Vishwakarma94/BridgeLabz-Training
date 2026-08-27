@@ -163,11 +163,20 @@ BridgeLabz-Training/
 | **5** | 6 Aug  | Servlets, Apache Tomcat, Spring Core                            | Learned Java Servlets, configured Tomcat, and explored Spring Core using XML, Annotation, and Java-based configuration.          |
 | **6** | 7 Aug  | Spring MVC Fundamentals                                         | Explored Spring MVC concepts and developed a **Demo Greetings Application** using Spring MVC.                                    |
 | **7** | 10 Aug | RESTful API, H2 Basics                                          | Completed the **Greetings Application**, explored RESTful APIs and H2 Database basics, and started the **Contacts Application**. |
-| **8** | 11 Aug | API testing, mocking using Postman app and Swagger ui | **1.** Updated the Contacts App by writing the mockito test cases on the service layer. |
+| **8** | 11 Aug | API testing, mocking using Postman app and Swagger ui | Updated the Contacts App by writing the mockito test cases on the service layer. |
 | **9** | 12 Aug | Spring Boot, auto-configuration, starters, Spring Controller and REST API basics | **1.** Updated the Contacts App with search by name and favourite contact functionality |
-| **10** | 13 Aug | Bean injection in Spring Boot, H2 Implementation | **1.** Completed Contacts App **2.** Started Employee Payroll App |
-| **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC | **1.** Updated Employee Payroll App & migrated to Spring Data JPA |
+| **10** | 13 Aug | Bean injection in Spring Boot, H2 Implementation | Completed Contacts App **2.** Started Employee Payroll App |
+| **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC | Updated Employee Payroll App & migrated to Spring Data JPA |
 | **12** | 17 Aug | Spring Scopes, Logging, Maven & Postman | Updated the **Employee Payroll Application** by adding simple loggers and OpenAPI documentation. |
+| **10** | 13 Aug | Bean injection in Spring Boot, H2 Implementation               | Completed Contacts App **2.** Started Employee Payroll App |
+| **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC                      | Updated Employee Payroll App & migrated to Spring Data JPA |
+| **12** | 17 Aug | Spring Scopes, Logging, Maven & Postman                         | Updated the **Employee Payroll Application** by adding simple loggers and OpenAPI documentation. |
+| **13** | 18 Aug | Spring Security & JWT Authentication                            | Added Fundoo Notes App with basic spring security |
+| **14** | 19 Aug | Authorization & JPA for Notes Management                        | Updated Fundoo Notes App with basic User Notes crud |
+| **15** | 20 Aug | Organisation Modules: Pin/Archive/Trash, Search & Tags          | Updated Fundoo Notes App with basic User Notes patch operations |
+| **16** | 21 Aug | JMS (Asynchronous Messaging) & Redis Caching                     | Updated Fundoo Notes App with basic Redis and JMS implementations for learing |
+| **17** | 24 Aug | Rabbit MQ & introduction to Spring Batch                         | Updated the Fundoo Notes App with RabbitMQ implementation for email reminders and excel export functionality |
+| **18** | 25 Aug | Global Exception Handling & logging                              | Updated the Fundoo Notes App with Global exception handling and aspect to calculate request method timings |
 ---
 
 # 📖 Key Concepts Covered
@@ -320,6 +329,12 @@ BridgeLabz-Training/
 * 📌 [Day 10](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-10)
 * 📌 [Day 11](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-11)
 * 📌 [Day 12](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-12)
+* 📌 [Day 13](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-13)
+* 📌 [Day 14](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-14)
+* 📌 [Day 15](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-15)
+* 📌 [Day 16](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-16)
+* 📌 [Day 17](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-17)
+* 📌 [Day 18](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-18)
 
 ---
 
