@@ -26,12 +26,14 @@ Throughout this training, I explored core backend technologies by learning conce
 | **10** | 13 Aug | Bean Injection in Spring Boot, H2 Implementation                               | Completed the **Contacts Application** and started the **Employee Payroll Application**.                                         |
 | **11** | 14 Aug | Spring Services, Spring JPA & Spring JDBC                                      | Updated the **Employee Payroll Application** and migrated it to **Spring Data JPA**.                                             |
 | **12** | 17 Aug | Spring Scopes, Logging, Maven & Postman                                        | Updated the **Employee Payroll Application** by adding simple loggers and OpenAPI documentation.                                |
-| **13** | 18 Aug | Spring Security & JWT Authentication                                           | Added **Fundoo Notes App** with basic Spring Security.                                                                           |
-| **14** | 19 Aug | Authorization & JPA for Notes Management                                      | Updated **Fundoo Notes App** with basic User Notes CRUD.                                                                         |
-| **15** | 20 Aug | Organisation Modules: Pin/Archive/Trash, Search & Tags                        | Updated **Fundoo Notes App** with basic User Notes patch operations.                                                             |
-| **16** | 21 Aug | JMS (Asynchronous Messaging) & Redis Caching                                   | Updated **Fundoo Notes App** with basic Redis and JMS implementations for learning.                                             |
-| **17** | 24 Aug | Rabbit MQ & Introduction to Spring Batch                                       | Updated the **Fundoo Notes App** with RabbitMQ implementation for email reminders and Excel export functionality.                |
-| **18** | 25 Aug | Global Exception Handling & Logging                                            | Updated the **Fundoo Notes App** with Global Exception Handling and an aspect to calculate request method timings.               |
+| **13** | 18 Aug | Spring Security & JWT Authentication                                           | Added the **Fundoo Notes Application** with basic Spring Security.                                                              |
+| **14** | 19 Aug | Authorization & JPA for Notes Management                                       | Updated the **Fundoo Notes Application** with basic User Notes CRUD operations.                                                 |
+| **15** | 20 Aug | Organisation Modules: Pin/Archive/Trash, Search & Tags                         | Updated the **Fundoo Notes Application** with basic User Notes patch operations.                                                |
+| **16** | 21 Aug | JMS (Asynchronous Messaging) & Redis Caching                                   | Updated the **Fundoo Notes Application** with basic Redis and JMS implementations for learning.                                 |
+| **17** | 24 Aug | RabbitMQ & Introduction to Spring Batch                                        | Updated the **Fundoo Notes Application** with RabbitMQ implementation for email reminders and Excel export functionality.       |
+| **18** | 25 Aug | Global Exception Handling & Logging                                            | Updated the **Fundoo Notes Application** with Global Exception Handling and an aspect to calculate request method timings.       |
+| **19** | 26 Aug | Monolith vs Microservices & Spring Boot Microservices                          | Updated the **Fundoo Notes Application** and migrated it to a microservices-based architecture.                                  |
+| **20** | 27 Aug | Eureka Server & Spring Boot Microservices                                      | Updated the **Fundoo Notes Application** by adding Circuit Breakers and Load Balancers.                                          |
 
 ---
 
@@ -134,17 +136,22 @@ Throughout this training, I explored core backend technologies by learning conce
 
 ### 📨 Messaging & Caching
 
-* JMS (Asynchronous Messaging)
+* JMS
+* Asynchronous Messaging
 * Redis Caching
 * RabbitMQ
+* Email Reminders
 * Spring Batch Basics
 
-### 🛡️ Exception Handling & Logging
+### 🏗️ Microservices
 
-* Global Exception Handling
-* Aspect-Oriented Programming
-* Request Method Timing
-* Logging
+* Monolithic Architecture
+* Microservices Architecture
+* Spring Boot Microservices
+* Service Discovery
+* Eureka Server
+* Circuit Breakers
+* Load Balancing
 
 ---
 
@@ -218,26 +225,28 @@ The project focuses on applying **Spring Boot, Spring Services, Spring Data JPA,
 
 ## 📝 Fundoo Notes Application
 
-Developed and enhanced the **Fundoo Notes Application** while exploring Spring Security, JWT authentication, JPA, messaging, caching, and backend architecture concepts.
+A Spring Boot-based Notes Management application developed throughout the later stages of the refresher training.
+
+The application was progressively enhanced with security, database operations, messaging, caching, exception handling, and microservices architecture.
 
 **Features & Concepts Added**
 
-* Spring Security
-* JWT Authentication
-* Authorization
+* Spring Security & JWT Authentication
 * User Notes CRUD Operations
-* Notes Patch Operations
-* Pin, Archive & Trash Modules
+* Authorization
+* Pin, Archive & Trash Operations
 * Search & Tags
 * Redis Caching
-* JMS Messaging
+* JMS
 * RabbitMQ
 * Email Reminders
 * Excel Export
 * Global Exception Handling
-* Aspect-Oriented Programming
-* Request Method Timing
-* Logging
+* Request Timing using AOP
+* Microservices Architecture
+* Eureka Service Discovery
+* Circuit Breakers
+* Load Balancing
 
 ---
 
@@ -255,14 +264,11 @@ Developed and enhanced the **Fundoo Notes Application** while exploring Spring S
 * Spring JDBC
 * Spring Security
 * JWT
-* RESTful APIs
-* JMS
 * Redis
+* JMS
 * RabbitMQ
 * Spring Batch
-* Mockito
-* Postman
-* OpenAPI / Swagger
+* RESTful APIs
 * Maven
 * Eclipse IDE / STS
 * Git & GitHub
@@ -289,7 +295,7 @@ Developed and enhanced the **Fundoo Notes Application** while exploring Spring S
 * 📌 [Day 16](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-16)
 * 📌 [Day 17](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-17)
 * 📌 [Day 18](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-18)
+* 📌 [Day 19](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-19)
+* 📌 [Day 20](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-20)
 
 ---
-
-⭐ *This repository is continuously updated as I progress through the BridgeLabz Refresher Training Program, documenting my learning, hands-on projects, and practical backend development experience.*
