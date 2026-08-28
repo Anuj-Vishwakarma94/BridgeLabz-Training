@@ -1,0 +1,49 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: reminder-service
+
+  activemq:
+    in-memory: true
+
+  jms:
+    pub-sub-domain: false
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: anujvishwakarma9827@gmail.com
+    password: xswrjzpqcuyrriql
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      notes-service:
+        slidingWindowSize: 10
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        minimumNumberOfCalls: 5
+        waitDurationInOpenState: 5000ms
+        failureRateThreshold: 50
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -1,0 +1,2 @@
+com\fundoo\gateway\ApiGatewayApplication.class
+com\fundoo\gateway\controller\FallbackController.class

@@ -1,0 +1,120 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: auth-service
+          uri: lb://AUTH-SERVICE
+          predicates:
+            - Path=/api/auth/**, /auth/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: authCircuitBreaker
+                fallbackUri: forward:/fallback/auth
+
+        - id: notes-service
+          uri: lb://NOTES-SERVICE
+          predicates:
+            - Path=/api/notes/**, /notes/**, /api/labels/**, /labels/**, /api/batch/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: notesCircuitBreaker
+                fallbackUri: forward:/fallback/notes
+
+        - id: reminder-service
+          uri: lb://REMINDER-SERVICE
+          predicates:
+            - Path=/api/reminders/**, /reminders/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: reminderCircuitBreaker
+                fallbackUri: forward:/fallback/reminders
+
+        - id: admin-server
+          uri: lb://ADMIN-SERVER
+          predicates:
+            - Path=/admin/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: adminCircuitBreaker
+                fallbackUri: forward:/fallback/admin
+
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - PATCH
+              - OPTIONS
+            allowedHeaders: "*"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      authCircuitBreaker:
+        slidingWindowSize: 10
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        minimumNumberOfCalls: 5
+        waitDurationInOpenState: 5000ms
+        failureRateThreshold: 50
+      notesCircuitBreaker:
+        slidingWindowSize: 10
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        minimumNumberOfCalls: 5
+        waitDurationInOpenState: 5000ms
+        failureRateThreshold: 50
+      reminderCircuitBreaker:
+        slidingWindowSize: 10
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        minimumNumberOfCalls: 5
+        waitDurationInOpenState: 5000ms
+        failureRateThreshold: 50
+      adminCircuitBreaker:
+        slidingWindowSize: 10
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowType: COUNT_BASED
+        minimumNumberOfCalls: 5
+        waitDurationInOpenState: 5000ms
+        failureRateThreshold: 50
+  timelimiter:
+    instances:
+      authCircuitBreaker:
+        timeoutDuration: 3s
+      notesCircuitBreaker:
+        timeoutDuration: 3s
+      reminderCircuitBreaker:
+        timeoutDuration: 3s
+      adminCircuitBreaker:
+        timeoutDuration: 3s
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
