@@ -177,6 +177,8 @@ BridgeLabz-Training/
 | **16** | 21 Aug | JMS (Asynchronous Messaging) & Redis Caching                     | Updated Fundoo Notes App with basic Redis and JMS implementations for learing |
 | **17** | 24 Aug | Rabbit MQ & introduction to Spring Batch                         | Updated the Fundoo Notes App with RabbitMQ implementation for email reminders and excel export functionality |
 | **18** | 25 Aug | Global Exception Handling & logging                              | Updated the Fundoo Notes App with Global exception handling and aspect to calculate request method timings |
+| **19** | 26 Aug       |Monolith vs Microservices & Spring Boot Microservices       | Updated the Fundoo Notes App and migrated it to a microservices-based architecture|
+| **20** | 27 Aug       |Eureka Server & Spring Boot Microservices                   | Updated the Fundoo Notes App by adding Circuit Breakers and Load Balancers|
 ---
 
 # 📖 Key Concepts Covered
@@ -335,6 +337,8 @@ BridgeLabz-Training/
 * 📌 [Day 16](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-16)
 * 📌 [Day 17](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-17)
 * 📌 [Day 18](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-18)
+* 📌 [Day 19](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-19)
+* 📌 [Day 20](https://github.com/Anuj-Vishwakarma94/BridgeLabz-Training/tree/Refresher-Training/Day-20)
 
 ---
 
